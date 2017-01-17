@@ -2,6 +2,17 @@
     window.mediaElement = document.getElementById('setMedia');
     window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
     window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
+    
+
+    var namespace = 'urn:x-cast:com.super.example';
+    var messageBus = castReceiverManager.getCastMessageBus(namespace, cast.receiver.CastMessageBus.MessageType.JSON);
+
+    messageBus.onMessage = function(event) {
+        var sender = event.senderId;
+        var message = event.data;
+        console.log('received message!');
+    };
+
     window.castReceiverManager.start();
 
     window.castReceiverManager.onSenderDisconnected = function(event) {
@@ -16,5 +27,7 @@
     apiConfig.statusText = '準備播放';
     apiConfig.maxInactivity = 6000;
     window.castReceiverManager.start(apiConfig);
+
+
 
 })();
