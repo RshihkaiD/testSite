@@ -2,6 +2,7 @@
     window.mediaElement = document.getElementById('setMedia');
     window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
     var namespace = 'urn:x-cast:com.super.example';
+    window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
     var messageBus = castReceiverManager.getCastMessageBus(namespace, cast.receiver.CastMessageBus.MessageType.JSON);
 
     messageBus.onMessage = function(event) {
@@ -9,8 +10,7 @@
         var message = event.data;
         console.log('received message!');
     };
-    window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
-
+    
     window.castReceiverManager.start();
 
     window.castReceiverManager.onSenderDisconnected = function(event) {
