@@ -1,240 +1,73 @@
-/**
- * Copyright 2014 Google Inc. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/**
- * @fileoverview Receiver / Player sample
- * <p>
- * This sample demonstrates how to build your own Receiver for use with Google
- * Cast. One of the goals of this sample is to be fully UX compliant.
- * </p>
- * <p>
- * A receiver is typically an HTML5 application with a html, css, and JavaScript
- * components. It demonstrates the following Cast Receiver API's:
- * </p>
- * <ul>
- * <li>CastReceiverManager</li>
- * <li>MediaManager</li>
- * <li>Media Player Library</li>
- * </ul>
- * <p>
- * It also demonstrates the following player functions:
- * </p>
- * <ul>
- * <li>Branding Screen</li>
- * <li>Playback Complete image</li>
- * <li>Limited Animation</li>
- * <li>Buffering Indicator</li>
- * <li>Seeking</li>
- * <li>Pause indicator</li>
- * <li>Loading Indicator</li>
- * </ul>
- *
- */
-
 'use strict';
 
-
-/**
- * Creates the namespace
- */
 var sampleplayer = sampleplayer || {};
 
 
-
-/**
- * <p>
- * Cast player constructor - This does the following:
- * </p>
- * <ol>
- * <li>Bind a listener to visibilitychange</li>
- * <li>Set the default state</li>
- * <li>Bind event listeners for img & video tags<br />
- *  error, stalled, waiting, playing, pause, ended, timeupdate, seeking, &
- *  seeked</li>
- * <li>Find and remember the various elements</li>
- * <li>Create the MediaManager and bind to onLoad & onStop</li>
- * </ol>
- *
- * @param {!Element} element the element to attach the player
- * @struct
- * @constructor
- * @export
- */
 sampleplayer.CastPlayer = function(element) {
-
-  /**
-   * The debug setting to control receiver, MPL and player logging.
-   * @private {boolean}
-   */
   this.debug_ = sampleplayer.DISABLE_DEBUG_;
   if (this.debug_) {
     cast.player.api.setLoggerLevel(cast.player.api.LoggerLevel.DEBUG);
     cast.receiver.logger.setLevelValue(cast.receiver.LoggerLevel.DEBUG);
   }
-
-  /**
-   * The DOM element the player is attached.
-   * @private {!Element}
-   */
   this.element_ = element;
-
-  /**
-   * The current type of the player.
-   * @private {sampleplayer.Type}
-   */
   this.type_;
 
   this.setType_(sampleplayer.Type.UNKNOWN, false);
-
-  /**
-   * The current state of the player.
-   * @private {sampleplayer.State}
-   */
   this.state_;
-
-  /**
-   * Timestamp when state transition happened last time.
-   * @private {number}
-   */
   this.lastStateTransitionTime_ = 0;
 
   this.setState_(sampleplayer.State.LAUNCHING, false);
-
-  /**
-   * The id returned by setInterval for the screen burn timer
-   * @private {number|undefined}
-   */
   this.burnInPreventionIntervalId_;
-
-  /**
-   * The id returned by setTimeout for the idle timer
-   * @private {number|undefined}
-   */
   this.idleTimerId_;
-
-  /**
-   * The id of timer to handle seeking UI.
-   * @private {number|undefined}
-   */
   this.seekingTimerId_;
 
-  /**
-   * The id of timer to defer setting state.
-   * @private {number|undefined}
-   */
+  
   this.setStateDelayTimerId_;
 
-  /**
-   * Current application state.
-   * @private {string|undefined}
-   */
+  
   this.currentApplicationState_;
 
-  /**
-   * The DOM element for the inner portion of the progress bar.
-   * @private {!Element}
-   */
   this.progressBarInnerElement_ = this.getElementByClass_(
       '.controls-progress-inner');
 
-  /**
-   * The DOM element for the thumb portion of the progress bar.
-   * @private {!Element}
-   */
   this.progressBarThumbElement_ = this.getElementByClass_(
       '.controls-progress-thumb');
 
-  /**
-   * The DOM element for the current time label.
-   * @private {!Element}
-   */
   this.curTimeElement_ = this.getElementByClass_('.controls-cur-time');
 
-  /**
-   * The DOM element for the total time label.
-   * @private {!Element}
-   */
   this.totalTimeElement_ = this.getElementByClass_('.controls-total-time');
 
-  /**
-   * The DOM element for the preview time label.
-   * @private {!Element}
-   */
   this.previewModeTimerElement_ = this.getElementByClass_('.preview-mode-timer-countdown');
 
-  /**
-   * Handler for buffering-related events for MediaElement.
-   * @private {function()}
-   */
+  
   this.bufferingHandler_ = this.onBuffering_.bind(this);
 
-  /**
-   * Media player to play given manifest.
-   * @private {cast.player.api.Player}
-   */
+  
   this.player_ = null;
 
-  /**
-   * Media player used to preload content.
-   * @private {cast.player.api.Player}
-   */
+  
   this.preloadPlayer_ = null;
 
-  /**
-   * Text Tracks currently supported.
-   * @private {?sampleplayer.TextTrackType}
-   */
+  
   this.textTrackType_ = null;
 
-  /**
-   * Whether player app should handle autoplay behavior.
-   * @private {boolean}
-   */
+  
   this.playerAutoPlay_ = false;
 
-  /**
-   * Whether player app should display the preview mode UI.
-   * @private {boolean}
-   */
+  
   this.displayPreviewMode_ = false;
 
-  /**
-   * Id of deferred play callback
-   * @private {?number}
-   */
+  
   this.deferredPlayCallbackId_ = null;
 
-  /**
-   * Whether the player is ready to receive messages after a LOAD request.
-   * @private {boolean}
-   */
+  
   this.playerReady_ = false;
 
-  /**
-   * Whether the player has received the metadata loaded event after a LOAD
-   * request.
-   * @private {boolean}
-   */
+
   this.metadataLoaded_ = false;
 
-  /**
-   * The media element.
-   * @private {HTMLMediaElement}
-   */
-  this.mediaElement_ = /** @type {HTMLMediaElement} */
+  
+  this.mediaElement_ = 
       (this.element_.querySelector('video'));
   this.mediaElement_.addEventListener('error', this.onError_.bind(this), false);
   this.mediaElement_.addEventListener('playing', this.onPlaying_.bind(this),
@@ -250,10 +83,6 @@ sampleplayer.CastPlayer = function(element) {
       false);
 
 
-  /**
-   * The cast receiver manager.
-   * @private {!cast.receiver.CastReceiverManager}
-   */
   this.receiverManager_ = cast.receiver.CastReceiverManager.getInstance();
   this.receiverManager_.onReady = this.onReady_.bind(this);
   this.receiverManager_.onSenderDisconnected =
@@ -264,56 +93,34 @@ sampleplayer.CastPlayer = function(element) {
       sampleplayer.getApplicationState_());
 
 
-  /**
-   * The remote media object.
-   * @private {cast.receiver.MediaManager}
-   */
+  
   this.mediaManager_ = new cast.receiver.MediaManager(this.mediaElement_);
 
-  /**
-   * The original load callback.
-   * @private {?function(cast.receiver.MediaManager.Event)}
-   */
+  
   this.onLoadOrig_ =
       this.mediaManager_.onLoad.bind(this.mediaManager_);
   this.mediaManager_.onLoad = this.onLoad_.bind(this);
 
-  /**
-   * The original editTracksInfo callback
-   * @private {?function(!cast.receiver.MediaManager.Event)}
-   */
+  
   this.onEditTracksInfoOrig_ =
       this.mediaManager_.onEditTracksInfo.bind(this.mediaManager_);
   this.mediaManager_.onEditTracksInfo = this.onEditTracksInfo_.bind(this);
 
-  /**
-   * The original metadataLoaded callback
-   * @private {?function(!cast.receiver.MediaManager.LoadInfo)}
-   */
+  
   this.onMetadataLoadedOrig_ =
       this.mediaManager_.onMetadataLoaded.bind(this.mediaManager_);
   this.mediaManager_.onMetadataLoaded = this.onMetadataLoaded_.bind(this);
 
-  /**
-   * The original stop callback.
-   * @private {?function(cast.receiver.MediaManager.Event)}
-   */
+  
   this.onStopOrig_ =
       this.mediaManager_.onStop.bind(this.mediaManager_);
   this.mediaManager_.onStop = this.onStop_.bind(this);
 
-  /**
-   * The original metadata error callback.
-   * @private {?function(!cast.receiver.MediaManager.LoadInfo)}
-   */
+  
   this.onLoadMetadataErrorOrig_ =
       this.mediaManager_.onLoadMetadataError.bind(this.mediaManager_);
   this.mediaManager_.onLoadMetadataError = this.onLoadMetadataError_.bind(this);
 
-  /**
-   * The original error callback
-   * @private {?function(!Object)}
-   */
   this.onErrorOrig_ =
       this.mediaManager_.onError.bind(this.mediaManager_);
   this.mediaManager_.onError = this.onError_.bind(this);
@@ -326,9 +133,6 @@ sampleplayer.CastPlayer = function(element) {
 };
 
 
-/**
- * The amount of time in a given state before the player goes idle.
- */
 sampleplayer.IDLE_TIMEOUT = {
   LAUNCHING: 1000 * 60 * 5, // 5 minutes
   LOADING: 1000 * 60 * 5,  // 5 minutes
@@ -338,11 +142,6 @@ sampleplayer.IDLE_TIMEOUT = {
 };
 
 
-/**
- * Describes the type of media being played.
- *
- * @enum {string}
- */
 sampleplayer.Type = {
   AUDIO: 'audio',
   VIDEO: 'video',
@@ -350,11 +149,6 @@ sampleplayer.Type = {
 };
 
 
-/**
- * Describes the type of captions being used.
- *
- * @enum {string}
- */
 sampleplayer.TextTrackType = {
   SIDE_LOADED_TTML: 'ttml',
   SIDE_LOADED_VTT: 'vtt',
@@ -363,22 +157,12 @@ sampleplayer.TextTrackType = {
 };
 
 
-/**
- * Describes the type of captions being used.
- *
- * @enum {string}
- */
 sampleplayer.CaptionsMimeType = {
   TTML: 'application/ttml+xml',
   VTT: 'text/vtt'
 };
 
 
-/**
- * Describes the type of track.
- *
- * @enum {string}
- */
 sampleplayer.TrackType = {
   AUDIO: 'audio',
   VIDEO: 'video',
@@ -386,11 +170,6 @@ sampleplayer.TrackType = {
 };
 
 
-/**
- * Describes the state of the player.
- *
- * @enum {string}
- */
 sampleplayer.State = {
   LAUNCHING: 'launching',
   LOADING: 'loading',
@@ -401,54 +180,18 @@ sampleplayer.State = {
   IDLE: 'idle'
 };
 
-/**
- * The amount of time (in ms) a screen should stay idle before burn in
- * prevention kicks in
- *
- * @type {number}
- */
 sampleplayer.BURN_IN_TIMEOUT = 30 * 1000;
 
-/**
- * The minimum duration (in ms) that media info is displayed.
- *
- * @const @private {number}
- */
 sampleplayer.MEDIA_INFO_DURATION_ = 3 * 1000;
 
 
-/**
- * Transition animation duration (in sec).
- *
- * @const @private {number}
- */
 sampleplayer.TRANSITION_DURATION_ = 1.5;
 
-
-/**
- * Const to enable debugging.
- *
- * @const @private {boolean}
- */
 sampleplayer.ENABLE_DEBUG_ = true;
 
-
-/**
- * Const to disable debugging.
- *
- * #@const @private {boolean}
- */
 sampleplayer.DISABLE_DEBUG_ = false;
 
 
-/**
- * Returns the element with the given class name
- *
- * @param {string} className The class name of the element to return.
- * @return {!Element}
- * @throws {Error} If given class cannot be found.
- * @private
- */
 sampleplayer.CastPlayer.prototype.getElementByClass_ = function(className) {
   var element = this.element_.querySelector(className);
   if (element) {
@@ -459,57 +202,24 @@ sampleplayer.CastPlayer.prototype.getElementByClass_ = function(className) {
 };
 
 
-/**
- * Returns this player's media element.
- *
- * @return {HTMLMediaElement} The media element.
- * @export
- */
 sampleplayer.CastPlayer.prototype.getMediaElement = function() {
   return this.mediaElement_;
 };
 
 
-/**
- * Returns this player's media manager.
- *
- * @return {cast.receiver.MediaManager} The media manager.
- * @export
- */
 sampleplayer.CastPlayer.prototype.getMediaManager = function() {
   return this.mediaManager_;
 };
 
 
-/**
- * Returns this player's MPL player.
- *
- * @return {cast.player.api.Player} The current MPL player.
- * @export
- */
 sampleplayer.CastPlayer.prototype.getPlayer = function() {
   return this.player_;
 };
 
-
-/**
- * Starts the player.
- *
- * @export
- */
 sampleplayer.CastPlayer.prototype.start = function() {
   this.receiverManager_.start();
 };
 
-
-/**
- * Preloads the given data.
- *
- * @param {!cast.receiver.media.MediaInformation} mediaInformation The
- *     asset media information.
- * @return {boolean} Whether the media can be preloaded.
- * @export
- */
 sampleplayer.CastPlayer.prototype.preload = function(mediaInformation) {
   this.log_('preload');
   // For video formats that cannot be preloaded (mp4...), display preview UI.
@@ -534,24 +244,10 @@ sampleplayer.CastPlayer.prototype.preload = function(mediaInformation) {
   return couldPreload;
 };
 
-
-/**
- * Display preview mode metadata.
- *
- * @param {boolean} show whether player is showing preview mode metadata
- * @export
- */
 sampleplayer.CastPlayer.prototype.showPreviewModeMetadata = function(show) {
   this.element_.setAttribute('preview-mode', show.toString());
 };
 
-/**
- * Show the preview mode UI.
- *
- * @param {!cast.receiver.media.MediaInformation} mediaInformation The
- *     asset media information.
- * @private
- */
 sampleplayer.CastPlayer.prototype.showPreviewMode_ = function(mediaInformation) {
   this.displayPreviewMode_ = true;
   this.loadPreviewModeMetadata_(mediaInformation);
@@ -559,25 +255,13 @@ sampleplayer.CastPlayer.prototype.showPreviewMode_ = function(mediaInformation) 
 };
 
 
-/**
- * Hide the preview mode UI.
- *
- * @private
- */
+
 sampleplayer.CastPlayer.prototype.hidePreviewMode_ = function() {
   this.showPreviewModeMetadata(false);
   this.displayPreviewMode_ = false;
 };
 
 
-/**
- * Preloads some video content.
- *
- * @param {!cast.receiver.media.MediaInformation} mediaInformation The
- *     asset media information.
- * @return {boolean} Whether the video can be preloaded.
- * @private
- */
 sampleplayer.CastPlayer.prototype.preloadVideo_ = function(mediaInformation) {
   this.log_('preloadVideo_');
   var self = this;
@@ -603,12 +287,6 @@ sampleplayer.CastPlayer.prototype.preloadVideo_ = function(mediaInformation) {
   return true;
 };
 
-/**
- * Loads the given data.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @export
- */
 sampleplayer.CastPlayer.prototype.load = function(info) {
   this.log_('onLoad_');
   clearTimeout(this.idleTimerId_);
@@ -671,13 +349,6 @@ sampleplayer.CastPlayer.prototype.load = function(info) {
   }
 };
 
-/**
- * Sends the load complete message to the sender if the two necessary conditions
- * are met, the player is ready for messages and the loaded metadata event has
- * been received.
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @private
- */
 sampleplayer.CastPlayer.prototype.maybeSendLoadCompleted_ = function(info) {
   if (!this.playerReady_) {
     this.log_('Deferring load response, player not ready');
@@ -689,11 +360,6 @@ sampleplayer.CastPlayer.prototype.maybeSendLoadCompleted_ = function(info) {
   }
 };
 
-/**
- * Resets the media element.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.resetMediaElement_ = function() {
   this.log_('resetMediaElement_');
   if (this.player_) {
@@ -704,12 +370,6 @@ sampleplayer.CastPlayer.prototype.resetMediaElement_ = function() {
 };
 
 
-/**
- * Loads the metadata for the given media.
- *
- * @param {!cast.receiver.media.MediaInformation} media The media.
- * @private
- */
 sampleplayer.CastPlayer.prototype.loadMetadata_ = function(media) {
   this.log_('loadMetadata_');
   if (!sampleplayer.isCastForAudioDevice_()) {
@@ -729,12 +389,6 @@ sampleplayer.CastPlayer.prototype.loadMetadata_ = function(media) {
 };
 
 
-/**
- * Loads the metadata for the given preview mode media.
- *
- * @param {!cast.receiver.media.MediaInformation} media The media.
- * @private
- */
 sampleplayer.CastPlayer.prototype.loadPreviewModeMetadata_ = function(media) {
   this.log_('loadPreviewModeMetadata_');
   if (!sampleplayer.isCastForAudioDevice_()) {
@@ -754,14 +408,6 @@ sampleplayer.CastPlayer.prototype.loadPreviewModeMetadata_ = function(media) {
 };
 
 
-/**
- * Lets player handle autoplay, instead of depending on underlying
- * MediaElement to handle it. By this way, we can make sure that media playback
- * starts after loading screen is displayed.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @private
- */
 sampleplayer.CastPlayer.prototype.letPlayerHandleAutoPlay_ = function(info) {
   this.log_('letPlayerHandleAutoPlay_: ' + info.message.autoplay);
   var autoplay = info.message.autoplay;
@@ -771,12 +417,6 @@ sampleplayer.CastPlayer.prototype.letPlayerHandleAutoPlay_ = function(info) {
 };
 
 
-/**
- * Loads some audio content.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @private
- */
 sampleplayer.CastPlayer.prototype.loadAudio_ = function(info) {
   this.log_('loadAudio_');
   this.letPlayerHandleAutoPlay_(info);
@@ -784,13 +424,6 @@ sampleplayer.CastPlayer.prototype.loadAudio_ = function(info) {
 };
 
 
-/**
- * Loads some video content.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @return {boolean} Whether the media was preloaded
- * @private
- */
 sampleplayer.CastPlayer.prototype.loadVideo_ = function(info) {
   this.log_('loadVideo_');
   var self = this;
@@ -808,15 +441,11 @@ sampleplayer.CastPlayer.prototype.loadVideo_ = function(info) {
         false);
   } else {
     this.log_('loadVideo_: using Media Player Library');
-    // When MPL is used, buffering status should be detected by
-    // getState()['underflow]'
+
     this.mediaElement_.removeEventListener('stalled', this.bufferingHandler_);
     this.mediaElement_.removeEventListener('waiting', this.bufferingHandler_);
 
-    // If we have not preloaded or the content preloaded does not match the
-    // content that needs to be loaded, perform a full load
     var loadErrorCallback = function() {
-      // unload player and trigger error event on media element
       if (self.player_) {
         self.resetMediaElement_();
         self.mediaElement_.dispatchEvent(new Event('error'));
@@ -840,7 +469,6 @@ sampleplayer.CastPlayer.prototype.loadVideo_ = function(info) {
       this.log_('Preloaded video load');
       this.player_ = this.preloadPlayer_;
       this.preloadPlayer_ = null;
-      // Replace the "preload" error callback with the "load" error callback
       this.player_.getHost().onError = loadErrorCallback;
       this.player_.load();
       wasPreloaded = true;
@@ -850,40 +478,16 @@ sampleplayer.CastPlayer.prototype.loadVideo_ = function(info) {
   return wasPreloaded;
 };
 
-
-/**
- * Loads media and tracks info into media manager.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @param {boolean} loadOnlyTracksMetadata Only load the tracks metadata (if
- *     it is in the info provided).
- * @private
- */
 sampleplayer.CastPlayer.prototype.loadMediaManagerInfo_ =
     function(info, loadOnlyTracksMetadata) {
 
   if (loadOnlyTracksMetadata) {
-    // In the case of media that uses MPL we do not
-    // use the media manager default onLoad API but we still need to load
-    // the tracks metadata information into media manager (so tracks can be
-    // managed and properly reported in the status messages) if they are
-    // provided in the info object (side loaded).
     this.maybeLoadSideLoadedTracksMetadata_(info);
   } else {
-    // Media supported by mediamanager, use the media manager default onLoad API
-    // to load the media, tracks metadata and, if the tracks are vtt the media
-    // manager will process the cues too.
     this.loadDefault_(info);
   }
 };
 
-
-/**
- * Sets the captions type based on the text tracks.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @private
- */
 sampleplayer.CastPlayer.prototype.readSideLoadedTextTrackType_ =
     function(info) {
   if (!info.message || !info.message.media || !info.message.media.tracks) {
@@ -907,8 +511,6 @@ sampleplayer.CastPlayer.prototype.readSideLoadedTextTrackType_ =
           sampleplayer.TextTrackType.SIDE_LOADED_UNSUPPORTED;
       break;
     }
-    // We do not support text tracks with different caption types for a single
-    // piece of content
     if (oldTextTrackType && oldTextTrackType != this.textTrackType_) {
       this.log_('Load has inconsistent text track types');
       this.textTrackType_ =
@@ -919,23 +521,13 @@ sampleplayer.CastPlayer.prototype.readSideLoadedTextTrackType_ =
 };
 
 
-/**
- * If there is tracks information in the LoadInfo, it loads the side loaded
- * tracks information in the media manager without loading media.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @private
- */
 sampleplayer.CastPlayer.prototype.maybeLoadSideLoadedTracksMetadata_ =
     function(info) {
-  // If there are no tracks we will not load the tracks information here as
-  // we are likely in a embedded captions scenario and the information will
-  // be loaded in the onMetadataLoaded_ callback
   if (!info.message || !info.message.media || !info.message.media.tracks ||
       info.message.media.tracks.length == 0) {
     return;
   }
-  var tracksInfo = /** @type {cast.receiver.media.TracksInfo} **/ ({
+  var tracksInfo = ({
     tracks: info.message.media.tracks,
     activeTrackIds: info.message.activeTrackIds,
     textTrackStyle: info.message.media.textTrackStyle
@@ -944,14 +536,6 @@ sampleplayer.CastPlayer.prototype.maybeLoadSideLoadedTracksMetadata_ =
 };
 
 
-/**
- * Loads embedded tracks information without loading media.
- * If there is embedded tracks information, it loads the tracks information
- * in the media manager without loading media.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @private
- */
 sampleplayer.CastPlayer.prototype.maybeLoadEmbeddedTracksMetadata_ =
     function(info) {
   if (!info.message || !info.message.media) {
@@ -966,19 +550,11 @@ sampleplayer.CastPlayer.prototype.maybeLoadEmbeddedTracksMetadata_ =
 };
 
 
-/**
- * Processes ttml tracks and enables the active ones.
- *
- * @param {!Array.<number>} activeTrackIds The active tracks.
- * @param {!Array.<cast.receiver.media.Track>} tracks The track definitions.
- * @private
- */
 sampleplayer.CastPlayer.prototype.processTtmlCues_ =
     function(activeTrackIds, tracks) {
   if (activeTrackIds.length == 0) {
     return;
   }
-  // If there is an active text track, that is using ttml, apply it
   for (var i = 0; i < tracks.length; i++) {
     var contains = false;
     for (var j = 0; j < activeTrackIds.length; j++) {
@@ -992,8 +568,6 @@ sampleplayer.CastPlayer.prototype.processTtmlCues_ =
       continue;
     }
     if (!this.player_) {
-      // We do not have a player, it means we need to create it to support
-      // loading ttml captions
       var host = new cast.player.api.Host({
         'url': '',
         'mediaElement': this.mediaElement_
@@ -1007,13 +581,6 @@ sampleplayer.CastPlayer.prototype.processTtmlCues_ =
 };
 
 
-/**
- * Checks if a track is TTML.
- *
- * @param {cast.receiver.media.Track} track The track.
- * @return {boolean} Whether the track is in TTML format.
- * @private
- */
 sampleplayer.CastPlayer.prototype.isTtmlTrack_ = function(track) {
   return this.isKnownTextTrack_(track,
       sampleplayer.TextTrackType.SIDE_LOADED_TTML,
@@ -1021,13 +588,6 @@ sampleplayer.CastPlayer.prototype.isTtmlTrack_ = function(track) {
 };
 
 
-/**
- * Checks if a track is VTT.
- *
- * @param {cast.receiver.media.Track} track The track.
- * @return {boolean} Whether the track is in VTT format.
- * @private
- */
 sampleplayer.CastPlayer.prototype.isVttTrack_ = function(track) {
   return this.isKnownTextTrack_(track,
       sampleplayer.TextTrackType.SIDE_LOADED_VTT,
@@ -1035,23 +595,11 @@ sampleplayer.CastPlayer.prototype.isVttTrack_ = function(track) {
 };
 
 
-/**
- * Checks if a track is of a known type by verifying the extension or mimeType.
- *
- * @param {cast.receiver.media.Track} track The track.
- * @param {!sampleplayer.TextTrackType} textTrackType The text track
- *     type expected.
- * @param {!string} mimeType The mimeType expected.
- * @return {boolean} Whether the track has the specified format.
- * @private
- */
 sampleplayer.CastPlayer.prototype.isKnownTextTrack_ =
     function(track, textTrackType, mimeType) {
   if (!track) {
     return false;
   }
-  // The sampleplayer.TextTrackType values match the
-  // file extensions required
   var fileExtension = textTrackType;
   var trackContentId = track.trackContentId;
   var trackContentType = track.trackContentType;
@@ -1063,13 +611,6 @@ sampleplayer.CastPlayer.prototype.isKnownTextTrack_ =
   return false;
 };
 
-
-/**
- * Processes embedded tracks, if they exist.
- *
- * @param {!Array.<number>} activeTrackIds The active tracks.
- * @private
- */
 sampleplayer.CastPlayer.prototype.processInBandTracks_ =
     function(activeTrackIds) {
   var protocol = this.player_.getStreamingProtocol();
@@ -1092,13 +633,6 @@ sampleplayer.CastPlayer.prototype.processInBandTracks_ =
   }
 };
 
-
-/**
- * Reads in-band tracks info, if they exist.
- *
- * @return {cast.receiver.media.TracksInfo} The tracks info.
- * @private
- */
 sampleplayer.CastPlayer.prototype.readInBandTracksInfo_ = function() {
   var protocol = this.player_ ? this.player_.getStreamingProtocol() : null;
   if (!protocol) {
@@ -1136,7 +670,7 @@ sampleplayer.CastPlayer.prototype.readInBandTracksInfo_ = function() {
   if (tracks.length === 0) {
     return null;
   }
-  var tracksInfo = /** @type {cast.receiver.media.TracksInfo} **/ ({
+  var tracksInfo = ({
     tracks: tracks,
     activeTrackIds: activeTrackIds
   });
@@ -1144,12 +678,6 @@ sampleplayer.CastPlayer.prototype.readInBandTracksInfo_ = function() {
 };
 
 
-/**
- * Loads some media by delegating to default media manager.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load request info.
- * @private
- */
 sampleplayer.CastPlayer.prototype.loadDefault_ = function(info) {
   this.onLoadOrig_(new cast.receiver.MediaManager.Event(
       cast.receiver.MediaManager.EventType.LOAD,
@@ -1157,13 +685,6 @@ sampleplayer.CastPlayer.prototype.loadDefault_ = function(info) {
       info.senderId));
 };
 
-
-/**
- * Sets the amount of time before the player is considered idle.
- *
- * @param {number} t the time in milliseconds before the player goes idle
- * @private
- */
 sampleplayer.CastPlayer.prototype.setIdleTimeout_ = function(t) {
   this.log_('setIdleTimeout_: ' + t);
   var self = this;
@@ -1175,14 +696,6 @@ sampleplayer.CastPlayer.prototype.setIdleTimeout_ = function(t) {
   }
 };
 
-
-/**
- * Sets the type of player.
- *
- * @param {sampleplayer.Type} type The type of player.
- * @param {boolean} isLiveStream whether player is showing live content
- * @private
- */
 sampleplayer.CastPlayer.prototype.setType_ = function(type, isLiveStream) {
   this.log_('setType_: ' + type);
   this.type_ = type;
@@ -1203,15 +716,6 @@ sampleplayer.CastPlayer.prototype.setType_ = function(type, isLiveStream) {
   }
 };
 
-
-/**
- * Sets the state of the player.
- *
- * @param {sampleplayer.State} state the new state of the player
- * @param {boolean=} opt_crossfade true if should cross fade between states
- * @param {number=} opt_delay the amount of time (in ms) to wait
- * @private
- */
 sampleplayer.CastPlayer.prototype.setState_ = function(
     state, opt_crossfade, opt_delay) {
   this.log_('setState_: state=' + state + ', crossfade=' + opt_crossfade +
@@ -1232,10 +736,6 @@ sampleplayer.CastPlayer.prototype.setState_ = function(
       var stateTransitionTime = self.lastStateTransitionTime_;
       sampleplayer.transition_(self.element_, sampleplayer.TRANSITION_DURATION_,
           function() {
-            // In the case of a crossfade transition, the transition will be completed
-            // even if setState is called during the transition.  We need to be sure
-            // that the requested state is ignored as the latest setState call should
-            // take precedence.
             if (stateTransitionTime < self.lastStateTransitionTime_) {
               self.log_('discarded obsolete deferred state(' + state + ').');
               return;
@@ -1246,12 +746,6 @@ sampleplayer.CastPlayer.prototype.setState_ = function(
   }
 };
 
-
-/**
- * Updates the application state if it has changed.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.updateApplicationState_ = function() {
   this.log_('updateApplicationState_');
   if (this.mediaManager_) {
@@ -1265,25 +759,12 @@ sampleplayer.CastPlayer.prototype.updateApplicationState_ = function() {
   }
 };
 
-
-/**
- * Called when the player is ready. We initialize the UI for the launching
- * and idle screens.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onReady_ = function() {
   this.log_('onReady');
   this.setState_(sampleplayer.State.IDLE, false);
 };
 
 
-/**
- * Called when a sender disconnects from the app.
- *
- * @param {cast.receiver.CastReceiverManager.SenderDisconnectedEvent} event
- * @private
- */
 sampleplayer.CastPlayer.prototype.onSenderDisconnected_ = function(event) {
   this.log_('onSenderDisconnected');
   // When the last or only sender is connected to a receiver,
@@ -1296,14 +777,6 @@ sampleplayer.CastPlayer.prototype.onSenderDisconnected_ = function(event) {
 };
 
 
-/**
- * Called when media has an error. Transitions to IDLE state and
- * calls to the original media manager implementation.
- *
- * @see cast.receiver.MediaManager#onError
- * @param {!Object} error
- * @private
- */
 sampleplayer.CastPlayer.prototype.onError_ = function(error) {
   this.log_('onError');
   var self = this;
@@ -1314,13 +787,6 @@ sampleplayer.CastPlayer.prototype.onError_ = function(error) {
       });
 };
 
-
-/**
- * Called when media is buffering. If we were previously playing,
- * transition to the BUFFERING state.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onBuffering_ = function() {
   this.log_('onBuffering[readyState=' + this.mediaElement_.readyState + ']');
   if (this.state_ === sampleplayer.State.PLAYING &&
@@ -1330,12 +796,6 @@ sampleplayer.CastPlayer.prototype.onBuffering_ = function() {
 };
 
 
-/**
- * Called when media has started playing. We transition to the
- * PLAYING state.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onPlaying_ = function() {
   this.log_('onPlaying');
   this.cancelDeferredPlay_('media is already playing');
@@ -1345,14 +805,6 @@ sampleplayer.CastPlayer.prototype.onPlaying_ = function() {
   this.setState_(sampleplayer.State.PLAYING, crossfade);
 };
 
-
-/**
- * Called when media has been paused. If this is an auto-pause as a result of
- * buffer underflow, we transition to BUFFERING state; otherwise, if the media
- * isn't done, we transition to the PAUSED state.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onPause_ = function() {
   this.log_('onPause');
   this.cancelDeferredPlay_('media is paused');
@@ -1369,16 +821,6 @@ sampleplayer.CastPlayer.prototype.onPause_ = function() {
   this.updateProgress_();
 };
 
-
-/**
- * Changes player state reported to sender, if necessary.
- * @param {!cast.receiver.media.MediaStatus} mediaStatus Media status that is
- *     supposed to go to sender.
- * @return {cast.receiver.media.MediaStatus} MediaStatus that will be sent to
- *     sender.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.customizedStatusCallback_ = function(
     mediaStatus) {
   this.log_('customizedStatusCallback_: playerState=' +
@@ -1392,14 +834,6 @@ sampleplayer.CastPlayer.prototype.customizedStatusCallback_ = function(
   return mediaStatus;
 };
 
-
-/**
- * Called when we receive a STOP message. We stop the media and transition
- * to the IDLE state.
- *
- * @param {cast.receiver.MediaManager.Event} event The stop event.
- * @private
- */
 sampleplayer.CastPlayer.prototype.onStop_ = function(event) {
   this.log_('onStop');
   this.cancelDeferredPlay_('media is stopped');
@@ -1411,24 +845,12 @@ sampleplayer.CastPlayer.prototype.onStop_ = function(event) {
       });
 };
 
-
-/**
- * Called when media has ended. We transition to the IDLE state.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onEnded_ = function() {
   this.log_('onEnded');
   this.setState_(sampleplayer.State.IDLE, true);
   this.hidePreviewMode_();
 };
 
-
-/**
- * Called when media has been aborted. We transition to the IDLE state.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onAbort_ = function() {
   this.log_('onAbort');
   this.setState_(sampleplayer.State.IDLE, true);
@@ -1436,12 +858,6 @@ sampleplayer.CastPlayer.prototype.onAbort_ = function() {
 };
 
 
-/**
- * Called periodically during playback, to notify changes in playback position.
- * We transition to PLAYING state, if we were in BUFFERING or LOADING state.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onProgress_ = function() {
   // if we were previously buffering, update state to playing
   if (this.state_ === sampleplayer.State.BUFFERING ||
@@ -1451,12 +867,6 @@ sampleplayer.CastPlayer.prototype.onProgress_ = function() {
   this.updateProgress_();
 };
 
-
-/**
- * Updates the current time and progress bar elements.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.updateProgress_ = function() {
   // Update the time and the progress bar
   if (!sampleplayer.isCastForAudioDevice_()) {
@@ -1476,24 +886,12 @@ sampleplayer.CastPlayer.prototype.updateProgress_ = function() {
   }
 };
 
-
-/**
- * Callback called when user starts seeking
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onSeekStart_ = function() {
   this.log_('onSeekStart');
   clearTimeout(this.seekingTimeoutId_);
   this.element_.classList.add('seeking');
 };
 
-
-/**
- * Callback called when user stops seeking.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onSeekEnd_ = function() {
   this.log_('onSeekEnd');
   clearTimeout(this.seekingTimeoutId_);
@@ -1502,16 +900,6 @@ sampleplayer.CastPlayer.prototype.onSeekEnd_ = function() {
 };
 
 
-/**
- * Called when the player is added/removed from the screen because HDMI
- * input has changed. If we were playing but no longer visible, pause
- * the currently playing media.
- *
- * @see cast.receiver.CastReceiverManager#onVisibilityChanged
- * @param {!cast.receiver.CastReceiverManager.VisibilityChangedEvent} event
- *    Event fired when visibility of application is changed.
- * @private
- */
 sampleplayer.CastPlayer.prototype.onVisibilityChanged_ = function(event) {
   this.log_('onVisibilityChanged');
   if (!event.isVisible) {
@@ -1521,14 +909,7 @@ sampleplayer.CastPlayer.prototype.onVisibilityChanged_ = function(event) {
 };
 
 
-/**
- * Called when we receive a PRELOAD message.
- *
- * @see castplayer.CastPlayer#load
- * @param {cast.receiver.MediaManager.Event} event The load event.
- * @return {boolean} Whether the item can be preloaded.
- * @private
- */
+
 sampleplayer.CastPlayer.prototype.onPreload_ = function(event) {
   this.log_('onPreload_');
   var loadRequestData =
@@ -1537,14 +918,6 @@ sampleplayer.CastPlayer.prototype.onPreload_ = function(event) {
 };
 
 
-/**
- * Called when we receive a CANCEL_PRELOAD message.
- *
- * @see castplayer.CastPlayer#load
- * @param {cast.receiver.MediaManager.Event} event The load event.
- * @return {boolean} Whether the item can be preloaded.
- * @private
- */
 sampleplayer.CastPlayer.prototype.onCancelPreload_ = function(event) {
   this.log_('onCancelPreload_');
   this.hidePreviewMode_();
@@ -1552,42 +925,25 @@ sampleplayer.CastPlayer.prototype.onCancelPreload_ = function(event) {
 };
 
 
-/**
- * Called when we receive a LOAD message. Calls load().
- *
- * @see sampleplayer#load
- * @param {cast.receiver.MediaManager.Event} event The load event.
- * @private
- */
 sampleplayer.CastPlayer.prototype.onLoad_ = function(event) {
   this.log_('onLoad_');
   this.cancelDeferredPlay_('new media is loaded');
   this.load(new cast.receiver.MediaManager.LoadInfo(
-      /** @type {!cast.receiver.MediaManager.LoadRequestData} */ (event.data),
+ (event.data),
       event.senderId));
 };
 
 
-/**
- * Called when we receive a EDIT_TRACKS_INFO message.
- *
- * @param {!cast.receiver.MediaManager.Event} event The editTracksInfo event.
- * @private
- */
 sampleplayer.CastPlayer.prototype.onEditTracksInfo_ = function(event) {
   this.log_('onEditTracksInfo');
   this.onEditTracksInfoOrig_(event);
 
-  // If the captions are embedded or ttml we need to enable/disable tracks
-  // as needed (vtt is processed by the media manager)
   if (!event.data || !event.data.activeTrackIds || !this.textTrackType_) {
     return;
   }
   var mediaInformation = this.mediaManager_.getMediaInformation() || {};
   var type = this.textTrackType_;
   if (type == sampleplayer.TextTrackType.SIDE_LOADED_TTML) {
-    // The player_ may not have been created yet if the type of media did
-    // not require MPL. It will be lazily created in processTtmlCues_
     if (this.player_) {
       this.player_.enableCaptions(false, cast.player.api.CaptionsType.TTML);
     }
@@ -1601,18 +957,10 @@ sampleplayer.CastPlayer.prototype.onEditTracksInfo_ = function(event) {
 };
 
 
-/**
- * Called when metadata is loaded, at this point we have the tracks information
- * if we need to provision embedded captions.
- *
- * @param {!cast.receiver.MediaManager.LoadInfo} info The load information.
- * @private
- */
 sampleplayer.CastPlayer.prototype.onMetadataLoaded_ = function(info) {
   this.log_('onMetadataLoaded');
   this.onLoadSuccess_();
-  // In the case of ttml and embedded captions we need to load the cues using
-  // MPL.
+ 
   this.readSideLoadedTextTrackType_(info);
 
   if (this.textTrackType_ ==
@@ -1622,24 +970,14 @@ sampleplayer.CastPlayer.prototype.onMetadataLoaded_ = function(info) {
     this.processTtmlCues_(
         info.message.activeTrackIds, info.message.media.tracks);
   } else if (!this.textTrackType_) {
-    // If we do not have a textTrackType, check if the tracks are embedded
+    
     this.maybeLoadEmbeddedTracksMetadata_(info);
   }
-  // Only send load completed when we have completed the player LOADING state
+
   this.metadataLoaded_ = true;
   this.maybeSendLoadCompleted_(info);
 };
 
-
-/**
- * Called when the media could not be successfully loaded. Transitions to
- * IDLE state and calls the original media manager implementation.
- *
- * @see cast.receiver.MediaManager#onLoadMetadataError
- * @param {!cast.receiver.MediaManager.LoadInfo} event The data
- *     associated with a LOAD event.
- * @private
- */
 sampleplayer.CastPlayer.prototype.onLoadMetadataError_ = function(event) {
   this.log_('onLoadMetadataError_');
   var self = this;
@@ -1650,13 +988,6 @@ sampleplayer.CastPlayer.prototype.onLoadMetadataError_ = function(event) {
       });
 };
 
-
-/**
- * Cancels deferred playback.
- *
- * @param {string} cancelReason
- * @private
- */
 sampleplayer.CastPlayer.prototype.cancelDeferredPlay_ = function(cancelReason) {
   if (this.deferredPlayCallbackId_) {
     this.log_('Cancelled deferred playback: ' + cancelReason);
@@ -1665,13 +996,6 @@ sampleplayer.CastPlayer.prototype.cancelDeferredPlay_ = function(cancelReason) {
   }
 };
 
-
-/**
- * Defers playback start by given timeout.
- *
- * @param {number} timeout In msec.
- * @private
- */
 sampleplayer.CastPlayer.prototype.deferPlay_ = function(timeout) {
   this.log_('Defering playback for ' + timeout + ' ms');
   var self = this;
@@ -1687,12 +1011,6 @@ sampleplayer.CastPlayer.prototype.deferPlay_ = function(timeout) {
   }, timeout);
 };
 
-
-/**
- * Called when the media is successfully loaded. Updates the progress bar.
- *
- * @private
- */
 sampleplayer.CastPlayer.prototype.onLoadSuccess_ = function() {
   this.log_('onLoadSuccess');
   // we should have total time at this point, so update the label
@@ -1708,31 +1026,12 @@ sampleplayer.CastPlayer.prototype.onLoadSuccess_ = function() {
   }
 };
 
-
-/**
- * Returns the image url for the given media object.
- *
- * @param {!cast.receiver.media.MediaInformation} media The media.
- * @return {string|undefined} The image url.
- * @private
- */
 sampleplayer.getMediaImageUrl_ = function(media) {
   var metadata = media.metadata || {};
   var images = metadata['images'] || [];
   return images && images[0] && images[0]['url'];
 };
 
-
-/**
- * Gets the adaptive streaming protocol creation function based on the media
- * information.
- *
- * @param {!cast.receiver.media.MediaInformation} mediaInformation The
- *     asset media information.
- * @return {?function(cast.player.api.Host):player.StreamingProtocol}
- *     The protocol function that corresponds to this media type.
- * @private
- */
 sampleplayer.getProtocolFunction_ = function(mediaInformation) {
   var url = mediaInformation.contentId;
   var type = mediaInformation.contentType || '';
@@ -1752,26 +1051,10 @@ sampleplayer.getProtocolFunction_ = function(mediaInformation) {
 };
 
 
-/**
- * Returns true if the media can be preloaded.
- *
- * @param {!cast.receiver.media.MediaInformation} media The media information.
- * @return {boolean} whether the media can be preloaded.
- * @private
- */
 sampleplayer.supportsPreload_ = function(media) {
   return sampleplayer.getProtocolFunction_(media) != null;
 };
 
-
-/**
- * Returns true if the preview UI should be shown for the type of media
- * although the media can not be preloaded.
- *
- * @param {!cast.receiver.media.MediaInformation} media The media information.
- * @return {boolean} whether the media can be previewed.
- * @private
- */
 sampleplayer.canDisplayPreview_ = function(media) {
   var contentId = media.contentId || '';
   var contentUrlPath = sampleplayer.getPath_(contentId);
@@ -1786,15 +1069,6 @@ sampleplayer.canDisplayPreview_ = function(media) {
 };
 
 
-/**
- * Returns the type of player to use for the given media.
- * By default this looks at the media's content type, but falls back
- * to file extension if not set.
- *
- * @param {!cast.receiver.media.MediaInformation} media The media.
- * @return {sampleplayer.Type} The player type.
- * @private
- */
 sampleplayer.getType_ = function(media) {
   var contentId = media.contentId || '';
   var contentType = media.contentType || '';
@@ -1834,13 +1108,6 @@ sampleplayer.getType_ = function(media) {
 };
 
 
-/**
- * Formats the given duration.
- *
- * @param {number} dur the duration (in seconds)
- * @return {string} the time (in HH:MM:SS)
- * @private
- */
 sampleplayer.formatDuration_ = function(dur) {
   dur = Math.floor(dur);
   function digit(n) { return ('00' + Math.round(n)).slice(-2); }
@@ -1855,18 +1122,6 @@ sampleplayer.formatDuration_ = function(dur) {
 };
 
 
-/**
- * Adds the given className to the given element for the specified amount of
- * time.
- *
- * @param {!Element} element The element to add the given class.
- * @param {string} className The class name to add to the given element.
- * @param {number} timeout The amount of time (in ms) the class should be
- *     added to the given element.
- * @return {number} A numerical id, which can be used later with
- *     window.clearTimeout().
- * @private
- */
 sampleplayer.addClassWithTimeout_ = function(element, className, timeout) {
   element.classList.add(className);
   return setTimeout(function() {
@@ -1875,15 +1130,6 @@ sampleplayer.addClassWithTimeout_ = function(element, className, timeout) {
 };
 
 
-/**
- * Causes the given element to fade out, does something, and then fades
- * it back in.
- *
- * @param {!Element} element The element to fade in/out.
- * @param {number} time The total amount of time (in seconds) to transition.
- * @param {function()} something The function that does something.
- * @private
- */
 sampleplayer.transition_ = function(element, time, something) {
   if (time <= 0 || sampleplayer.isCastForAudioDevice_()) {
     // No transitions supported for Cast for Audio devices
@@ -1896,17 +1142,8 @@ sampleplayer.transition_ = function(element, time, something) {
   }
 };
 
-
-/**
- * Preloads media data that can be preloaded.
- *
- * @param {!cast.receiver.media.MediaInformation} media The media to load.
- * @param {function()} doneFunc The function to call when done.
- * @private
- */
 sampleplayer.preload_ = function(media, doneFunc) {
   if (sampleplayer.isCastForAudioDevice_()) {
-    // No preloading for Cast for Audio devices
     doneFunc();
     return;
   }
@@ -1920,7 +1157,6 @@ sampleplayer.preload_ = function(media, doneFunc) {
       }
   }
 
-  // try to preload image metadata
   var thumbnailUrl = sampleplayer.getMediaImageUrl_(media);
   if (thumbnailUrl) {
     imagesToPreload.push(thumbnailUrl);
@@ -1942,42 +1178,14 @@ sampleplayer.preload_ = function(media, doneFunc) {
 };
 
 
-/**
- * Causes the given element to fade in.
- *
- * @param {!Element} element The element to fade in.
- * @param {number} time The amount of time (in seconds) to transition.
- * @param {function()=} opt_doneFunc The function to call when complete.
- * @private
- */
 sampleplayer.fadeIn_ = function(element, time, opt_doneFunc) {
   sampleplayer.fadeTo_(element, '', time, opt_doneFunc);
 };
 
-
-/**
- * Causes the given element to fade out.
- *
- * @param {!Element} element The element to fade out.
- * @param {number} time The amount of time (in seconds) to transition.
- * @param {function()=} opt_doneFunc The function to call when complete.
- * @private
- */
 sampleplayer.fadeOut_ = function(element, time, opt_doneFunc) {
   sampleplayer.fadeTo_(element, 0, time, opt_doneFunc);
 };
 
-
-/**
- * Causes the given element to fade to the given opacity in the given
- * amount of time.
- *
- * @param {!Element} element The element to fade in/out.
- * @param {string|number} opacity The opacity to transition to.
- * @param {number} time The amount of time (in seconds) to transition.
- * @param {function()=} opt_doneFunc The function to call when complete.
- * @private
- */
 sampleplayer.fadeTo_ = function(element, opacity, time, opt_doneFunc) {
   var self = this;
   var id = Date.now();
@@ -1994,13 +1202,6 @@ sampleplayer.fadeTo_ = function(element, opacity, time, opt_doneFunc) {
 };
 
 
-/**
- * Utility function to get the extension of a URL file path.
- *
- * @param {string} url the URL
- * @return {string} the extension or "" if none
- * @private
- */
 sampleplayer.getExtension_ = function(url) {
   var parts = url.split('.');
   // Handle files with no extensions and hidden files with no extension
@@ -2011,14 +1212,6 @@ sampleplayer.getExtension_ = function(url) {
 };
 
 
-/**
- * Returns the application state.
- *
- * @param {cast.receiver.media.MediaInformation=} opt_media The current media
- *     metadata
- * @return {string} The application state.
- * @private
- */
 sampleplayer.getApplicationState_ = function(opt_media) {
   if (opt_media && opt_media.metadata && opt_media.metadata.title) {
     return 'Now Casting: ' + opt_media.metadata.title;
@@ -2030,26 +1223,12 @@ sampleplayer.getApplicationState_ = function(opt_media) {
 };
 
 
-/**
- * Returns the URL path.
- *
- * @param {string} url The URL
- * @return {string} The URL path.
- * @private
- */
 sampleplayer.getPath_ = function(url) {
   var href = document.createElement('a');
   href.href = url;
   return href.pathname || '';
 };
 
-
-/**
- * Logging utility.
- *
- * @param {string} message to log
- * @private
- */
 sampleplayer.CastPlayer.prototype.log_ = function(message) {
   if (this.debug_ && message) {
     console.log(message);
@@ -2057,13 +1236,6 @@ sampleplayer.CastPlayer.prototype.log_ = function(message) {
 };
 
 
-/**
- * Sets the inner text for the given element.
- *
- * @param {Element} element The element.
- * @param {string=} opt_text The text.
- * @private
- */
 sampleplayer.setInnerText_ = function(element, opt_text) {
   if (!element) {
     return;
@@ -2071,14 +1243,6 @@ sampleplayer.setInnerText_ = function(element, opt_text) {
   element.innerText = opt_text || '';
 };
 
-
-/**
- * Sets the background image for the given element.
- *
- * @param {Element} element The element.
- * @param {string=} opt_url The image url.
- * @private
- */
 sampleplayer.setBackgroundImage_ = function(element, opt_url) {
   if (!element) {
     return;
@@ -2088,13 +1252,6 @@ sampleplayer.setBackgroundImage_ = function(element, opt_url) {
   element.style.display = (opt_url ? '' : 'none');
 };
 
-
-/**
- * Called to determine if the receiver device is an audio device.
- *
- * @return {boolean} Whether the device is a Cast for Audio device.
- * @private
- */
 sampleplayer.isCastForAudioDevice_ = function() {
   var receiverManager = window.cast.receiver.CastReceiverManager.getInstance();
   if (receiverManager) {
