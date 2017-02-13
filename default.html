@@ -1,91 +1,77 @@
-<!--
-Copyright 2014 Google Inc. All Rights Reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
- -->
-<!--
-This sample demonstrates how to build your own Receiver for use with Google
-Cast.
-
-A receiver is typically an HTML5 application with a html, css, and JavaScript
-components.
-
-In this HTML5 page, we include our style sheet, the Receiver SDK, and our player
-JavaScript code.
-
-We Then define two layers within the player:
-
-1. The media layers
-2. The Overlay layers
-The overlay layer holds:
-   a. Logo for startup page
-   b. Media Artwork and information during loading
-   c. controls for Pause / Seek
- -->
-<!DOCTYPE html>
 <html>
 <head>
-  <!-- Change the title tag to your app's name to display as the details text on the Cast device picker -->
-  <title>Casting app name</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="player.css" />
-  <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
-  <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/mediaplayer/1.0.0/media_player.js"></script>
-  <script type="text/javascript" src="player.js"></script>
+  <title>Chromecast Sample Default Receiver</title>
+  <script src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
-<body style="margin: 0">
-    <div id="player" class="player">
-        <div class="media">
-            <video></video>
-        </div>
-        <div class="logo"></div>
-        <div class="spinner"></div>
-        <div class="watermark"></div>
-        <div class="gradient"></div>
-        <div class="overlay">
-            <div class="media-info">
-                <div class="media-artwork"></div>
-                <div class="media-text">
-                    <div class="media-title"></div>
-                    <div class="media-subtitle"></div>
-                </div>
-            </div>
-            <div class="preview-mode-info">
-                <div class="preview-mode-artwork"></div>
-                <div class="preview-mode-text">
-	                <div class="preview-mode-timer">
-                        <div class="preview-mode-timer-starts">Up next in&nbsp;</div>
-                        <div class="preview-mode-timer-countdown"></div>
-                        <div class="preview-mode-timer-sec">&nbsp;secs...</div>
-                    </div>
-                    <div class="preview-mode-title"></div>
-                    <div class="preview-mode-subtitle"></div>
-                </div>
-            </div>
-            <div class="controls">
-                <span class="controls-play-pause"></span>
-                <span class="controls-cur-time"></span>
-                <span class="controls-total-time"></span>
-                <div class="controls-progress">
-                    <div class="controls-progress-inner progressBar"></div>
-                    <div class="controls-progress-thumb"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-      var playerDiv = document.getElementById('player');
-      new sampleplayer.CastPlayer(playerDiv).start();
-    </script>
+
+<body style='overflow: hidden'>
+  <div id="splash_screen" style="width: 100%; height: 100%; background-color: black;">
+      <img id="splash_image" style="display: block; width: 50%; margin: auto; position: absolute; top: 0; left: 0; bottom: 0; right: 0; vertical-align: middle" />
+  </div>
+  <video id="tmp_video"></video>
+  <script>
+    // Locations of the images that will show on receiver screens. You are welcomed to configure these image locations.
+    var SPLASH_SCREEN_SRC = "./images/ooyala-logo.png";
+    var LOGO_IMAGE_SRC = "./images/ooyala-logo.png";
+    var PAUSE_ICON_SRC = "./images/pause.svg";
+    var PLAY_ICON_SRC = "./images/play.svg";
+    var WATERMARK_ICON_SRC = "./images/ooyala-logo-watermark.png";
+    var V3_URL = "//player.ooyala.com/v3/51a0285082d44e37b5d3fbf2b4a9812b";
+    var DEBUG_TAG = "Chromecast-debug";
+   
+    window.mediaManager = null;
+    window.mediaElement = null;
+    window.namespace = "urn:x-cast:ooyala";
+
+    window.onload = function() {
+      var splashImage = document.querySelector("#splash_image");
+      splashImage.src = SPLASH_SCREEN_SRC;
+        
+      var playerJs = document.createElement("script");
+      playerJs.type = "text/javascript";
+      playerJs.src = V3_URL;
+
+      window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
+      window.mediaElement = document.getElementById('tmp_video');
+      window.mediaManager = new cast.receiver.MediaManager(mediaElement);
+      window.mediaManager.onLoad = onLoad.bind(this);
+
+      window.castMB = castReceiverManager.getCastMessageBus(window.namespace)
+      window.castReceiverManager.start();
+
+      function onLoad(event) {
+        var data = event.data.media.customData;
+        if (data.debug) {
+          console.log(DEBUG_TAG, "onLoad", JSON.stringify(event, null, '\t'));
+        }
+
+        var playerParams = {};
+        if (data.params) {
+          if (typeof data.params === "string") {
+            playerParams = eval("(" + data.params + ")");
+          } else if (typeof data.params === "object") {
+            playerParams = data.params;
+          }
+        }
+        if (typeof playerParams['autoplay'] !== 'boolean') {
+          playerParams['autoplay'] = true;
+        }
+        playerParams['splashScreen'] = SPLASH_SCREEN_SRC;
+        playerParams['logoImage'] = LOGO_IMAGE_SRC;
+        playerParams['pauseIcon'] = PAUSE_ICON_SRC;
+        playerParams['playIcon'] = PLAY_ICON_SRC;
+        playerParams['watermarkIcon'] = WATERMARK_ICON_SRC;
+        playerParams['mediaManager'] = window.mediaManager;
+
+        var player = OO.Player.create('player', data.ec, playerParams);
+        player.mb.publish(OO.EVENTS.CHROMECAST_INIT, data);
+
+        window.mediaManager.sendStatus(event.senderId, event.data.requestId, true);
+        $("#tmp_video").remove();
+      }
+      document.head.appendChild(playerJs);
+    }
+  </script>
 </body>
 </html>
