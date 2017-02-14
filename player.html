@@ -1,9 +1,5 @@
-
-<!DOCTYPE html>
-<html>
-  <head>
 <!--
-Copyright 2015 Google Inc. All Rights Reserved.
+Copyright 2014 Google Inc. All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -16,136 +12,80 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
--->
-    <title>GameDebugger sender</title>
-    <style>
-      body {
-        color: #EEE;
-        background: #222;
-        box-shadow: 0 0 0.5em #999;
-        margin: 0px;
-        padding: 1em;
-        text-align: center;
-      }
+ -->
+<!--
+This sample demonstrates how to build your own Receiver for use with Google
+Cast.
 
-      h3 {
-        margin: none;
-        padding: none;
-      }
+A receiver is typically an HTML5 application with a html, css, and JavaScript
+components.
 
-      .title {
-        color: #EEE;
-        font-family: Monospace;
-        margin:none;
-        text-align: center;
-        font-size: 200%;
-      }
+In this HTML5 page, we include our style sheet, the Receiver SDK, and our player
+JavaScript code.
 
-      #game-state-display {
-        background: #EEE;
-        border-radius: 10px;
-        border: solid gray 3px;
-        font-family: Monospace;
-      }
+We Then define two layers within the player:
 
-      .instruction-panel {
-        border-radius:10px;
-        box-shadow: 0 0 0.5em #999;
-        background:#FFF;
-        color: #222;
-        font-family: Arial;
-        line-height: 140%;
-        margin: 20px;
-        padding: 10px;
-        padding-left: 25px;
-        padding-right: 25px;
-        text-align: left;
-      }
-
-      .code-key {
-        background-color:#EEE;
-        border-radius:3px;
-        border: solid gray 2px;
-        box-shadow: 0 0 0.2em #999;
-        color: #333;
-        font-family: Monospace;
-        padding-left:5px;
-        padding-right:5px;
-        text-shadow:none;
-        font-size:100%;
-      }
-
-      .instruction-panel .code {
-        background-color:#EEE;
-        border-radius:3px;
-        box-shadow: 0 0 0.2em #999;
-        font-family: Monospace;
-        padding: 2px;
-        margin-left:5px;
-        margin-right:5px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1 class="title">GameDebugger chrome sender</h1>
-    <div class="instruction-panel">
-      <h3>
-        Instructions:
-      </h3>
-      <li>Make sure you have the Google cast extension installed.</li>
-      <li>Cast this tab to the Cast device.</li>
-      <li>
-        Open chrome dev console by pressing <span class="code-key">F12</span> on
-        a PC and <span class="code-key">Cmd</span> +
-        <span class="code-key">Opt</span> + <span class="code-key">I</span> on
-        a Mac for additional commands.
-      </li>
-
-      <h3>
-        How does this work?
-      </h3>
-      <p>
-        After opening the chrome dev console, you will see a list of available
-        commands that can be used to control the app. As you change the game
-        states through the dev console, the changes will be reflected on the
-        receiver, and you will be able to see the result of the commands live.
-      </p>
-      <p>
-        As an example, try connecting a new player to the game. We can do this
-        by entering this into the dev console:
-        <span class="code">sendPlayerAvailable('myPlayerId', null)</span>.
-        Note that you don't have to provide a player name to send a players
-        available request. When you leave the <span class="code">playerId</span>
-        blank, the game will automatically generate a player name and attach it
-        to your sender. If there is already a playerId associated with your
-        sender device, then leaving the playerId field blank will assume the
-        ID of the already associated player.
-      </p>
-      <p>
-        You can also provide extra messages to go along with your requests. For
-        example, if your player named 'John' wants to join the game but wants to
-        skip directly to level 5, you could send something along the lines of
-        <span class="code">sendPlayerAvailable('John', {skipToLevel : 5})</span>
-        to reflect this.
-      </p>
-      <p>
-        Senders can request data from the receiver about the current game state.
-        They can also respond to events fired from the receiver, even from
-        other plays on other sender devices!  To request a snapshot of the
-        current game state, you can call
-        <span class="code">gameManagerClient.getCurrentState();</span>
-        which returns an object representing the current game state.
-        Note that in this demo we store our instance of the
-        <span class="code">GameManagerClient</span>
-        in a global variable called <span class="code">gameManagerClient</span>.
-      </p>
-      <p>
-        There are other commands you can try out by opening the chrome dev
-        console.
-      </p>
+1. The media layers
+2. The Overlay layers
+The overlay layer holds:
+   a. Logo for startup page
+   b. Media Artwork and information during loading
+   c. controls for Pause / Seek
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Change the title tag to your app's name to display as the details text on the Cast device picker -->
+  <title>Casting app name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="player.css" />
+  <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+  <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/mediaplayer/1.0.0/media_player.js"></script>
+  <script type="text/javascript" src="player.js"></script>
+</head>
+<body style="margin: 0">
+    <div id="player" class="player">
+        <div class="media">
+            <video></video>
+        </div>
+        <div class="logo"></div>
+        <div class="spinner"></div>
+        <div class="watermark"></div>
+        <div class="gradient"></div>
+        <div class="overlay">
+            <div class="media-info">
+                <div class="media-artwork"></div>
+                <div class="media-text">
+                    <div class="media-title"></div>
+                    <div class="media-subtitle"></div>
+                </div>
+            </div>
+            <div class="preview-mode-info">
+                <div class="preview-mode-artwork"></div>
+                <div class="preview-mode-text">
+	                <div class="preview-mode-timer">
+                        <div class="preview-mode-timer-starts">Up next in&nbsp;</div>
+                        <div class="preview-mode-timer-countdown"></div>
+                        <div class="preview-mode-timer-sec">&nbsp;secs...</div>
+                    </div>
+                    <div class="preview-mode-title"></div>
+                    <div class="preview-mode-subtitle"></div>
+                </div>
+            </div>
+            <div class="controls">
+                <span class="controls-play-pause"></span>
+                <span class="controls-cur-time"></span>
+                <span class="controls-total-time"></span>
+                <div class="controls-progress">
+                    <div class="controls-progress-inner progressBar"></div>
+                    <div class="controls-progress-thumb"></div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <!-- Load all of our scripts -->
-    <script src="script_loader.js"></script>
-  </body>
+    <script>
+      var playerDiv = document.getElementById('player');
+      new sampleplayer.CastPlayer(playerDiv).start();
+    </script>
+</body>
 </html>
