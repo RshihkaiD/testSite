@@ -790,7 +790,7 @@ cast.games.common.sender.setup.onCastError_ = function(error) {
 };
 var gameManagerClient = null;
 window.__onGCastApiAvailable = function(loaded, errorInfo) {
-  loaded ? cast.games.common.sender.setup("F393D32D", onSessionReady_) : (console.error("### Cast Sender SDK failed to load:"), console.dir(errorInfo));
+  loaded ? cast.games.common.sender.setup("BE8FAB12", onSessionReady_) : (console.error("### Cast Sender SDK failed to load:"), console.dir(errorInfo));
 };
 var onSessionReady_ = function(session) {
   console.log("### Creating game manager client.");
