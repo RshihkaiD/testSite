@@ -55,7 +55,7 @@ body {
 }
 
 .player .logo {
-  display: block;
+  display: none;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
