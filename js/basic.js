@@ -494,6 +494,7 @@ window.mediaElement.addEventListener('loadstart', function(e) {
 window.mediaElement.addEventListener('loadeddata', function(e) {
     console.log("######### MEDIA ELEMENT DATA LOADED");
     setHudMessage('mediaElementState', 'Data Loaded');
+    $('#mediaLogo').show();
 });
 window.mediaElement.addEventListener('canplay', function(e) {
     console.log("######### MEDIA ELEMENT CAN PLAY");
@@ -506,6 +507,7 @@ window.mediaElement.addEventListener('ended', function(e) {
 window.mediaElement.addEventListener('playing', function(e) {
     console.log("######### MEDIA ELEMENT PLAYING");
     setHudMessage('mediaElementState', 'Playing');
+    $('#mediaLogo').hide();
 });
 window.mediaElement.addEventListener('waiting', function(e) {
     console.log("######### MEDIA ELEMENT WAITING");

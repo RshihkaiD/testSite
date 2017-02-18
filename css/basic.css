@@ -34,14 +34,24 @@ video {
     font-weight: normal;
 }
 
-#logo{
+#s-logo{
+    text-align: right;
     position: absolute;
+    display: inline-block;
     right: 10px;
     top: 10px;
+    z-index: 999;
 }
 
 #logo img{
     width: 50%;
     height: 50%;
+}
 
+#mediaLogoStyle{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 50px;
+    left: 50px;
 }
