@@ -43,12 +43,12 @@ video {
     z-index: 999;
 }
 
-#logo img{
+#s-logo img{
     width: 50%;
     height: 50%;
 }
 
-#mediaLogoStyle{
+.mediaLogoStyle{
     display: none;
     position: absolute;
     z-index: 999;
