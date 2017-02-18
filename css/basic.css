@@ -1,33 +1,47 @@
 body {
-            overflow:hidden;
-        }
-        video {
-            height:auto;
-            width:100%;
-            text-align: center;
-            border:0px solid silver;
-            display: table-cell;
-            vertical-align: middle;
-            color: #FFFFFF;
-            background-color: #00000000;
-            font-weight: bold;
-            font-family: Verdana, Geneva, sans-serif;
-            font-size:40px;
-            float:left;
-            z-index: 1;
-            position:absolute;
-        }
-        #messages {
-            background-color: rgba(255,255,255,.6);
-            color: black;
-            float: left;
-            z-index: 2;
-            position:absolute;
-            font-weight: bold;
-            width:670PX;
-            background-color: #00000000;
-        }
+    overflow: hidden;
+}
 
-        #messages span {
-            font-weight: normal;
-        }
+video {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    border: 0px solid silver;
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF;
+    background-color: #00000000;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 40px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+}
+
+#messages {
+    background-color: rgba(255, 255, 255, .6);
+    color: black;
+    float: left;
+    z-index: 2;
+    position: absolute;
+    font-weight: bold;
+    width: 670PX;
+    background-color: #00000000;
+}
+
+#messages span {
+    font-weight: normal;
+}
+
+#logo{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#logo img{
+    width: 50%;
+    height: 50%;
+
+}
