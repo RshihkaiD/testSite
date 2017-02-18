@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Sample Media Receiver</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/basic.css">
     <!--
         Cast APIs
     -->
@@ -10,41 +12,6 @@
     -->
     <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/mediaplayer/0.7.0/media_player.js"></script>
 
-    <style>
-        body {
-            overflow:hidden;
-        }
-        video {
-            height:auto;
-            width:100%;
-            text-align: center;
-            border:0px solid silver;
-            display: table-cell;
-            vertical-align: middle;
-            color: #FFFFFF;
-            background-color: #00000000;
-            font-weight: bold;
-            font-family: Verdana, Geneva, sans-serif;
-            font-size:40px;
-            float:left;
-            z-index: 1;
-            position:absolute;
-        }
-        #messages {
-            background-color: rgba(255,255,255,.6);
-            color: black;
-            float: left;
-            z-index: 2;
-            position:absolute;
-            font-weight: bold;
-            width:670PX;
-            background-color: #00000000;
-        }
-
-        #messages span {
-            font-weight: normal;
-        }
-    </style>
 <script>window["_GOOG_TRANS_EXT_VER"] = "1";</script></head>
 <body>
     <div id="messages">
