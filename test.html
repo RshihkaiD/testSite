@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>sample Receiver</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/test.css">
+    <!-- cast Api -->
+    <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+    <!-- End cast Api -->
+    <!-- basic player -->
+    <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/mediaplayer/0.7.0/media_player.js"></script>
+    <!-- End basic player -->
+    <!-- include jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <!-- End include jquery -->
+</head>
+
+<body>
+    <div id="messageContainer" class="messageContainerStyle">
+        <div class="title">Sample Receiver</div>
+        <div class="application">Application Status:<span id="applicationStatus">--</span></div>
+        <div class="session">Session:<span id="sessionCount">--</span></div>
+        <div class="mediaElement">Media Element Status:<span id="mediaElementStatus">--</span></div>
+        <div class="receiverManager">Receiver Manager Message:<span id="receiverMessageManager">--</span></div>
+        <div class="mediaManager">Media Manager Message:<span id="mediaMessageManager">--</span></div>
+        <div class="messageBus">Message Bus:<span id="messageBusInfo">--</span></div>
+        <div class="volume">Media Volume:<span id="volumeMessage">--</span></div>
+        <div class="hostState">Host Status:<span id="hostStatus">--</span></div>
+        <div class="mediaType">Media Type:<span id="mediaTypeInfo">--</span></div>
+        <div class="mediaProtocol">Media Protocol:<span id="mediaProtocol">--</span></div>
+        <div id="logo" class="logoStyle"><img src="image/happy.svg"></div>
+    </div>
+    <video id="videoReceiver"></video>
+    <script type="application/javascript" src="js/test.js"></script>
+</body>
+
+</html>

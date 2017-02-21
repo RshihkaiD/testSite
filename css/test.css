@@ -1,0 +1,56 @@
+html,
+body {
+    overflow: hidden;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.messageContainerStyle {
+    background-color: rgba(255, 255, 255, .4);
+    position: fixed;
+    color: black;
+    text-align: left;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    z-index: 2;
+    width: 50%;
+    height: 50%;
+    min-width: 300px;
+    max-width: 900px;
+    min-height: 200px;
+    max-height: 600px;
+    padding: 10px;
+    line-height: 1.5rem;
+}
+
+.messageContainerStyle .title {
+    color:darkslateblue;
+}
+
+.messageContainerStyle span {
+    padding-left: 5px;
+    font-weight: lighter;
+}
+
+.logoStyle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px;
+    z-index: 3;
+}
