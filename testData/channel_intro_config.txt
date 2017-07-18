@@ -1,27 +1,27 @@
-var channel_intro = {
-    webPoster: {
-        img: 'channel_intro_m.jpg',
-        clickUrl: 'http://www.mi.com/tw/mibox/'
+{
+  "web": {
+    "image": "channel_intro_m.jpg",
+    "clickUrl": "http://www.mi.com/tw/mibox/"
+  },
+  "mobile": {
+    "image": "channel_intro.jpg",
+    "clickUrl": "http://www.mi.com/tw/mibox/"
+  },
+  "promoteInfo": [
+    {
+      "title": "多螢裝置",
+      "icon": "icon_multi-screen.png",
+      "clickUrl": "/purchase/multiscreen.do?to=purchaseInfo"
     },
-    mobilePoster: {
-        img: 'channel_intro.jpg',
-        clickUrl: 'http://www.mi.com/tw/mibox/'
+    {
+      "title": "立即購買",
+      "icon": "icon_buy.png",
+      "clickUrl": "/purchase/?to=purchaseInfo"
     },
-    marketPlace:[
-     {
-    	 title:'多螢裝置',
-    	 icon: 'icon_multi-screen.png',
-    	 clickUrl:'/purchase/multiscreen.do?to=purchaseInfo'
-     },
-     {
-    	 title:'立即購買',
-    	 icon: 'icon_buy.png',
-    	 clickUrl:'/purchase/?to=purchaseInfo'
-     },
-     {
-    	 title:'頻道免費體驗7天',
-    	 icon: 'icon_free.png',
-    	 clickUrl:'/channel/channel.do?'
-     }
-    ]
-};
+    {
+      "title": "頻道免費體驗7天",
+      "icon": "icon_free.png",
+      "clickUrl": "/channel/channel.do?"
+    }
+  ]
+}
