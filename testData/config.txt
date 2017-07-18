@@ -1,0 +1,29 @@
+var channel_intro = {
+    webPoster: {
+        img: 'channel_intro_m.jpg',
+        clickUrl: 'http://www.mi.com/tw/mibox/'
+    },
+    mobilePoster: {
+        img: 'channel_intro.jpg',
+        clickUrl: 'http://www.mi.com/tw/mibox/'
+    },
+    marketPlace:[
+     {
+    	 title:'多螢裝置',
+    	 icon: 'icon_multi-screen.png',
+    	 clickUrl:'/purchase/multiscreen.do?to=purchaseInfo'
+     },
+     {
+    	 title:'立即購買',
+    	 icon: 'icon_buy.png',
+    	 clickUrl:'/purchase/?to=purchaseInfo'
+     },
+     {
+    	 title:'頻道免費體驗7天',
+    	 icon: 'icon_free.png',
+    	 clickUrl:'/channel/channel.do?'
+     }
+    ]
+};
+
+var channel_list = {};
