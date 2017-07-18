@@ -25,5 +25,3 @@ var channel_intro = {
      }
     ]
 };
-
-var channel_list = {};
