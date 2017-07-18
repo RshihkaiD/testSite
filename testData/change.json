@@ -1,36 +1,18 @@
 [
   {
-    "name": "愛爾達歡樂餐",
+    "name": "整套看頻道",
     "packageType": "VOD",
-    "engName": "Elta",
+    "engName": "VCHANNEL",
     "menuOrder": 0,
-    "key": 83,
+    "key": 5,
     "channelList": [
       {
-        "name": "愛爾達綜合台",
-        "categories": [
-          {
-            "name": "綜合",
-            "engName": "Variety",
-            "menuOrder": 2,
-            "key": 1
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv069",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv069_pc.png",
-        "no": "33",
-        "title": "愛爾達綜合台",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv069_pc.png",
-        "contentId": "4gtv-4gtv069",
-        "contentType": "channel",
-        "description": "目前全台最強的HD高畫質綜合頻道。&nbsp;內容包羅萬象、節目精采可期，我們有強檔日本偶像劇、當紅黃金大陸劇、超人氣動畫卡通、自製的旅遊知性及自然人文節目，適合全家大小一起觀賞。",
+        "no": "166",
+        "title": "琅琊榜",
+        "picture": "https://cdnstatic-staging.svc.litv.tv//pics/vod_channel/logo_litv-vchannel92_pc_20170619.png",
+        "contentId": "litv-vchannel166",
+        "contentType": "vod-channel",
+        "description": "天下第一大幫江左盟的宗主梅長蘇（胡歌）化名蘇哲來到帝都金陵，同時也帶來了一場場風波與一團團迷霧。 具有雙重身份的貴公子，爭嫡中的太子與親王，手握禁軍的國中第一高手，統率南境鐵騎的美麗郡主。周旋於在這些權高位重身份不凡的人之間，這是一個既有晦暗陰謀，也有明亮友情的故事…",
         "supportType": [
           "mobile",
           "pad",
@@ -40,53 +22,54 @@
         "poster": [
           {
             "sort": 0,
-            "title": "愛爾達綜合台",
-            "picture": "ch_33_big.jpg"
+            "title": "琅琊榜",
+            "picture": "ch_166_big.jpg"
           },
           {
             "sort": 1,
-            "title": "新我們這一家",
-            "picture": "ch_33_01.jpg"
+            "title": "琅琊榜",
+            "picture": "ch_166_01.jpg"
           },
           {
             "sort": 2,
-            "title": "羋月傳",
-            "picture": "ch_33_02.jpg"
+            "title": "琅琊榜",
+            "picture": "ch_166_02.jpg"
           }
         ],
-        "epgcategories": [],
+        "epgcategories": [
+          {
+            "name": "整套看-全部",
+            "engName": "VOD_CHANNEL_ALL",
+            "menuOrder": 99,
+            "key": 86
+          },
+          {
+            "name": "整套看-熱門精選",
+            "engName": "VOD_CHANNEL_HOT",
+            "menuOrder": 100,
+            "key": 87
+          },
+          {
+            "name": "整套看-陸劇",
+            "engName": "VOD_CHANNEL_CN",
+            "menuOrder": 102,
+            "key": 25
+          }
+        ],
         "genres": [
           {
-            "name": "Variety",
+            "name": "VOD_CHANNEL",
             "id": ""
           }
         ]
       },
       {
-        "name": "愛爾達娛樂台",
-        "categories": [
-          {
-            "name": "綜合",
-            "engName": "Variety",
-            "menuOrder": 2,
-            "key": 1
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv070",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv070_pc.png",
-        "no": "34",
-        "title": "愛爾達娛樂台",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv070_pc.png",
-        "contentId": "4gtv-4gtv070",
-        "contentType": "channel",
-        "description": "愛爾達自製節目包含旅遊、美食、休閒運動、財經、座談等多種類優質內容。",
+        "no": "167",
+        "title": "秀麗江山之長歌行",
+        "picture": "https://cdnstatic-staging.svc.litv.tv//pics/vod_channel/logo_litv-vchannel92_pc_20170619.png",
+        "contentId": "litv-vchannel167",
+        "contentType": "vod-channel",
+        "description": "講述東漢王朝開國皇帝劉秀﹝袁弘﹞和皇后陰麗華﹝林心如﹞在雲台二十八將幫助下創建偉業的故事。新朝年間，劉秀於長安太學求學之時，結識了鄧禹、劉玄、馮異、陰麗華。數年後，新莽暴政，劉秀隨兄長揭竿而起。後經數十載不懈努力，結束戰亂，平定河北等地，定都雒陽，建立東漢。",
         "supportType": [
           "mobile",
           "pad",
@@ -96,53 +79,54 @@
         "poster": [
           {
             "sort": 0,
-            "title": "愛爾達娛樂台",
-            "picture": "ch_34_big.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_167_big.jpg"
           },
           {
             "sort": 1,
-            "title": "週遊列國",
-            "picture": "ch_34_01.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_167_01.jpg"
           },
           {
             "sort": 2,
-            "title": "好運呷透透",
-            "picture": "ch_34_02.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_167_02.jpg"
           }
         ],
-        "epgcategories": [],
+        "epgcategories": [
+          {
+            "name": "整套看-全部",
+            "engName": "VOD_CHANNEL_ALL",
+            "menuOrder": 99,
+            "key": 86
+          },
+          {
+            "name": "整套看-熱門精選",
+            "engName": "VOD_CHANNEL_HOT",
+            "menuOrder": 100,
+            "key": 87
+          },
+          {
+            "name": "整套看-陸劇",
+            "engName": "VOD_CHANNEL_CN",
+            "menuOrder": 102,
+            "key": 25
+          }
+        ],
         "genres": [
           {
-            "name": "Drama",
+            "name": "VOD_CHANNEL",
             "id": ""
           }
         ]
       },
       {
-        "name": "愛爾達影劇台",
-        "categories": [
-          {
-            "name": "戲劇‧影集",
-            "engName": "Drama",
-            "menuOrder": 5,
-            "key": 4
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv071",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv071_pc.png",
-        "no": "44",
-        "title": "愛爾達影劇台",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv071_pc.png",
-        "contentId": "4gtv-4gtv071",
-        "contentType": "channel",
-        "description": "提供精采時裝偶像、華語劇、韓劇、日劇等節目，且一刀未剪原音播出，鎖定輕熟女及熟女族群，ELTA影劇台為喜愛韓劇觀眾的最佳選擇。",
+        "no": "168",
+        "title": "浪漫醫生金師傅",
+        "picture": "https://cdnstatic-staging.svc.litv.tv//pics/vod_channel/logo_litv-vchannel91_pc_20170619.png",
+        "contentId": "litv-vchannel168",
+        "contentType": "vod-channel",
+        "description": "想要贏了任何人的男醫生姜東柱（柳演錫）和想要從別人那裡獲得認可的女醫生尹書靜（徐玄振），遇到怪才醫生金師傅（韓石圭）後，領悟到真正的人生價值和愛情的人性故事。",
         "supportType": [
           "mobile",
           "pad",
@@ -152,53 +136,54 @@
         "poster": [
           {
             "sort": 0,
-            "title": "愛爾達影劇台",
-            "picture": "ch_44_big.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_168_big.jpg"
           },
           {
             "sort": 1,
-            "title": "歡樂頌",
-            "picture": "ch_44_01.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_168_01.jpg"
           },
           {
             "sort": 2,
-            "title": "大宋傳奇之趙匡胤",
-            "picture": "ch_44_02.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_168_02.jpg"
           }
         ],
-        "epgcategories": [],
+        "epgcategories": [
+          {
+            "name": "整套看-全部",
+            "engName": "VOD_CHANNEL_ALL",
+            "menuOrder": 99,
+            "key": 86
+          },
+          {
+            "name": "整套看-熱門精選",
+            "engName": "VOD_CHANNEL_HOT",
+            "menuOrder": 100,
+            "key": 87
+          },
+          {
+            "name": "整套看-韓劇",
+            "engName": "VOD_CHANNEL_KR",
+            "menuOrder": 103,
+            "key": 23
+          }
+        ],
         "genres": [
           {
-            "name": "Drama",
+            "name": "VOD_CHANNEL",
             "id": ""
           }
         ]
       },
       {
-        "name": "愛爾達足球台",
-        "categories": [
-          {
-            "name": "體育",
-            "engName": "Sports",
-            "menuOrder": 4,
-            "key": 9
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv036",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv036_pc.png",
-        "no": "74",
-        "title": "愛爾達足球台",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv036_pc.png",
-        "contentId": "4gtv-4gtv036",
-        "contentType": "channel",
-        "description": "2016年愛爾達足球台正式開台，對於臺灣喜愛收看足球賽事的球迷無疑是一大福音。足球台除了將帶來盛大的歐洲冠軍聯賽與歐霸聯賽轉播，未來計畫帶來更多的足球賽事，滿足觀眾視覺享受。",
+        "no": "169",
+        "title": "食尚玩家",
+        "picture": "https://cdnstatic-staging.svc.litv.tv//pics/vod_channel/logo_litv-vchannel122_pc_20170619.png",
+        "contentId": "litv-vchannel169",
+        "contentType": "vod-channel",
+        "description": "由充滿青春活力的主持人，帶您逛遍台灣大街小巷，品嘗各式香噴噴的料理美食與旅遊景點，讓您輕鬆體驗樂活風！",
         "supportType": [
           "mobile",
           "pad",
@@ -208,53 +193,54 @@
         "poster": [
           {
             "sort": 0,
-            "title": "愛爾達足球台",
-            "picture": "ch_74_big.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_169_big.jpg"
           },
           {
             "sort": 1,
-            "title": "歐洲國家盃",
-            "picture": "ch_74_01.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_169_01.jpg"
           },
           {
             "sort": 2,
-            "title": "奧運大觀園",
-            "picture": "ch_74_02.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_169_02.jpg"
           }
         ],
-        "epgcategories": [],
+        "epgcategories": [
+          {
+            "name": "整套看-全部",
+            "engName": "VOD_CHANNEL_ALL",
+            "menuOrder": 99,
+            "key": 86
+          },
+          {
+            "name": "整套看-熱門精選",
+            "engName": "VOD_CHANNEL_HOT",
+            "menuOrder": 100,
+            "key": 87
+          },
+          {
+            "name": "整套看-旅遊美食",
+            "engName": "VOD_CHANNEL_TRAVEL",
+            "menuOrder": 107,
+            "key": 27
+          }
+        ],
         "genres": [
           {
-            "name": "Sports",
+            "name": "VOD_CHANNEL",
             "id": ""
           }
         ]
       },
       {
-        "name": "愛爾達體育台",
-        "categories": [
-          {
-            "name": "體育",
-            "engName": "Sports",
-            "menuOrder": 4,
-            "key": 9
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv075",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv075_pc.png",
-        "no": "75",
-        "title": "愛爾達體育台",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv075_pc.png",
-        "contentId": "4gtv-4gtv075",
-        "contentType": "channel",
-        "description": "全台灣第一個全HD高畫質製程的專業體育頻道，愛爾達積極引進各種大型世界級賽事如世界盃足球賽與UEFA歐洲冠軍足球聯賽。愛爾達體育台同時全力支持國內運動發展，轉播中華職棒、黑豹旗高中棒球大賽等等國內優質賽事。",
+        "no": "170",
+        "title": "華視天王豬哥秀",
+        "picture": "https://cdnstatic-staging.svc.litv.tv//pics/vod_channel/logo_litv-vchannel170_pc_20170619.png",
+        "contentId": "litv-vchannel170",
+        "contentType": "vod-channel",
+        "description": "天王巨星豬哥亮和陳亞蘭攜手合作，重現過去大型綜藝舞台秀！不管是說、學、逗、唱應有盡有，現代嘉慶君更是創造節目收視高峰，深獲觀眾喜愛！",
         "supportType": [
           "mobile",
           "pad",
@@ -264,53 +250,54 @@
         "poster": [
           {
             "sort": 0,
-            "title": "愛爾達體育台",
-            "picture": "ch_75_big.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_170_big.jpg"
           },
           {
             "sort": 1,
-            "title": "中華職棒",
-            "picture": "ch_75_01.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_170_01.jpg"
           },
           {
             "sort": 2,
-            "title": "美國游泳大獎賽",
-            "picture": "ch_75_02.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_170_02.jpg"
           }
         ],
-        "epgcategories": [],
+        "epgcategories": [
+          {
+            "name": "整套看-全部",
+            "engName": "VOD_CHANNEL_ALL",
+            "menuOrder": 99,
+            "key": 86
+          },
+          {
+            "name": "整套看-熱門精選",
+            "engName": "VOD_CHANNEL_HOT",
+            "menuOrder": 100,
+            "key": 87
+          },
+          {
+            "name": "整套看-音樂選秀",
+            "engName": "VOD_CHANNEL_MUSIC",
+            "menuOrder": 109,
+            "key": 29
+          }
+        ],
         "genres": [
           {
-            "name": "Sports",
+            "name": "VOD_CHANNEL",
             "id": ""
           }
         ]
       },
       {
-        "name": "愛爾達育樂台",
-        "categories": [
-          {
-            "name": "體育",
-            "engName": "Sports",
-            "menuOrder": 4,
-            "key": 9
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv076",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv076_pc.png",
-        "no": "76",
-        "title": "愛爾達育樂台",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv076_pc.png",
-        "contentId": "4gtv-4gtv076",
-        "contentType": "channel",
-        "description": "育樂台賽事陣容與體育台旗鼓相當，包含中華職棒、WTA世界職業女子網球巡迴賽、ITTF桌球世界巡迴賽等等，精采絕倫，保證絕無冷場！除此之外，也全力推廣國人喜愛之運動項目，如桌球、羽球、射箭等。",
+        "no": "171",
+        "title": "綜藝大集合",
+        "picture": "https://cdnstatic-staging.svc.litv.tv//pics/vod_channel/logo_litv-vchannel171_pc_20170619.png",
+        "contentId": "litv-vchannel171",
+        "contentType": "vod-channel",
+        "description": "大型外景節目，介紹台灣各個角落的人文、美食、特產等。主持群以及藝人來賓在節目裡面跟群眾玩遊戲，送獎金，與民同樂。",
         "supportType": [
           "mobile",
           "pad",
@@ -320,304 +307,43 @@
         "poster": [
           {
             "sort": 0,
-            "title": "愛爾達育樂台",
-            "picture": "ch_76_big.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_171_big.jpg"
           },
           {
             "sort": 1,
-            "title": "ITTF",
-            "picture": "ch_76_01.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_171_01.jpg"
           },
           {
             "sort": 2,
-            "title": "WTA",
-            "picture": "ch_76_02.jpg"
+            "title": "秀麗江山之長歌行",
+            "picture": "ch_171_02.jpg"
           }
         ],
-        "epgcategories": [],
+        "epgcategories": [
+          {
+            "name": "整套看-全部",
+            "engName": "VOD_CHANNEL_ALL",
+            "menuOrder": 99,
+            "key": 86
+          },
+          {
+            "name": "整套看-熱門精選",
+            "engName": "VOD_CHANNEL_HOT",
+            "menuOrder": 100,
+            "key": 87
+          },
+          {
+            "name": "整套看-音樂選秀",
+            "engName": "VOD_CHANNEL_MUSIC",
+            "menuOrder": 109,
+            "key": 29
+          }
+        ],
         "genres": [
           {
-            "name": "Sports",
-            "id": ""
-          }
-        ]
-      },
-      {
-        "name": "TRACE&nbsp;Sport&nbsp;Stars",
-        "categories": [
-          {
-            "name": "體育",
-            "engName": "Sports",
-            "menuOrder": 4,
-            "key": 9
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv077",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv077_pc.png",
-        "no": "86",
-        "title": "TRACE&nbsp;Sport&nbsp;Stars",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv077_pc.png",
-        "contentId": "4gtv-4gtv077",
-        "contentType": "channel",
-        "description": "全球首創致力於報導運動明星生活的娛樂型體育頻道，所有節目都與「運動明星」緊緊相連。從歌星到運動明星的擂台競技，再到時尚設計師為運動名人穿衣打扮，為您呈現運動明星的日常生活與幕後花絮報導。",
-        "supportType": [
-          "mobile",
-          "pad",
-          "pc",
-          "tv"
-        ],
-        "poster": [
-          {
-            "sort": 0,
-            "title": "TRACE&nbsp;Sport&nbsp;Stars",
-            "picture": "ch_86_big.jpg"
-          },
-          {
-            "sort": 1,
-            "title": "俱樂部秘辛",
-            "picture": "ch_86_01.jpg"
-          },
-          {
-            "sort": 2,
-            "title": "真相大白",
-            "picture": "ch_86_02.jpg"
-          }
-        ],
-        "epgcategories": [],
-        "genres": [
-          {
-            "name": "Sports",
-            "id": ""
-          }
-        ]
-      },
-      {
-        "name": "Outdoor&nbsp;Channel",
-        "categories": [
-          {
-            "name": "生活‧學習",
-            "engName": "Life",
-            "menuOrder": 8,
-            "key": 20
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv078",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv078_pc.png",
-        "no": "105",
-        "title": "Outdoor&nbsp;Channel",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv078_pc.png",
-        "contentId": "4gtv-4gtv078",
-        "contentType": "channel",
-        "description": "內容包括釣魚、保育、水上運動、越野極限運動節目，讓喜愛戶外休閒運動的觀眾盡情享受獨一無二的冒險歷程，推廣全球各地不同文種人類珍貴的戶外生活資產。",
-        "supportType": [
-          "mobile",
-          "pad",
-          "pc",
-          "tv"
-        ],
-        "poster": [
-          {
-            "sort": 0,
-            "title": "Outdoor&nbsp;Channel",
-            "picture": "ch_105_big.jpg"
-          },
-          {
-            "sort": 1,
-            "title": "Carter's&nbsp;WAR&nbsp;野生動物守護者",
-            "picture": "ch_105_01.jpg"
-          },
-          {
-            "sort": 2,
-            "title": "2015年釣魚高手團隊日誌",
-            "picture": "ch_105_02.jpg"
-          }
-        ],
-        "epgcategories": [],
-        "genres": [
-          {
-            "name": "Life",
-            "id": ""
-          }
-        ]
-      },
-      {
-        "name": "Travel&nbsp;Channel",
-        "categories": [
-          {
-            "name": "生活‧學習",
-            "engName": "Life",
-            "menuOrder": 8,
-            "key": 20
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv079",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv079_pc.png",
-        "no": "106",
-        "title": "Travel&nbsp;Channel",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv079_pc.png",
-        "contentId": "4gtv-4gtv079",
-        "contentType": "channel",
-        "description": "全球首居一指的高畫質正宗旅遊頻道，提供觀眾獨特旅行觀點。節目內容包括豪華渡假、烹飪任務，背包冒險，還有以大眾化旅遊方式，如鐵路之旅、摩托車之旅等、親子假期等，是全球愛好旅遊者的最佳選擇。",
-        "supportType": [
-          "mobile",
-          "pad",
-          "pc",
-          "tv"
-        ],
-        "poster": [
-          {
-            "sort": 0,
-            "title": "Travel&nbsp;Channel",
-            "picture": "ch_106_big.jpg"
-          },
-          {
-            "sort": 1,
-            "title": "美國之美&nbsp;第一季",
-            "picture": "ch_106_01.jpg"
-          },
-          {
-            "sort": 2,
-            "title": "夏威夷生活",
-            "picture": "ch_106_02.jpg"
-          }
-        ],
-        "epgcategories": [],
-        "genres": [
-          {
-            "name": "Life",
-            "id": ""
-          }
-        ]
-      },
-      {
-        "name": "TRACE&nbsp;Urban",
-        "categories": [
-          {
-            "name": "生活‧學習",
-            "engName": "Life",
-            "menuOrder": 8,
-            "key": 20
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv082",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv082_pc.png",
-        "no": "137",
-        "title": "TRACE&nbsp;Urban",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv082_pc.png",
-        "contentId": "4gtv-4gtv082",
-        "contentType": "channel",
-        "description": "走在時尚尖端、傾力製作的音樂頻道，並宣揚最流行的「都會音樂」風格。除涵蓋各類型音樂曲風外，TRACE&nbsp;Urban主要提供豐富的Hip-hop及R&B曲風，24小時不間斷，讓觀眾隨時沉浸在舒適的都會節奏中。",
-        "supportType": [
-          "mobile",
-          "pad",
-          "pc",
-          "tv"
-        ],
-        "poster": [
-          {
-            "sort": 0,
-            "title": "TRACE&nbsp;Urban",
-            "picture": "ch_137_big.jpg"
-          },
-          {
-            "sort": 1,
-            "title": "聚焦：關史蒂芬妮（Gwen&nbsp;Stefani)",
-            "picture": "ch_137_01.jpg"
-          },
-          {
-            "sort": 2,
-            "title": "大明星：DJ&nbsp;Snake",
-            "picture": "ch_137_02.jpg"
-          }
-        ],
-        "epgcategories": [],
-        "genres": [
-          {
-            "name": "Life",
-            "id": ""
-          }
-        ]
-      },
-      {
-        "name": "Mezzo&nbsp;Live&nbsp;HD",
-        "categories": [
-          {
-            "name": "生活‧學習",
-            "engName": "Life",
-            "menuOrder": 8,
-            "key": 20
-          },
-          {
-            "name": "愛爾達歡樂餐",
-            "engName": "Elta",
-            "menuOrder": 0,
-            "key": 83
-          }
-        ],
-        "cdnCode": "4gtv-4gtv083",
-        "isHD": true,
-        "logo": "logo_litv_4gtv-4gtv083_pc.png",
-        "no": "138",
-        "title": "Mezzo&nbsp;Live&nbsp;HD",
-        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv083_pc.png",
-        "contentId": "4gtv-4gtv083",
-        "contentType": "channel",
-        "description": "製播古典音樂、歌劇、藝術舞蹈聞名全球的文化藝術頻道，不定期現場直播世界知名經典音樂會，讓樂迷在家也能零時差同步感受世界文化氣息。Mezzo&nbsp;Live&nbsp;HD&nbsp;更提供一系列的爵士音樂節目，療癒您一天辛苦工作後的心靈。",
-        "supportType": [
-          "mobile",
-          "pad",
-          "pc",
-          "tv"
-        ],
-        "poster": [
-          {
-            "sort": 0,
-            "title": "Mezzo&nbsp;Live&nbsp;HD",
-            "picture": "ch_138_big.jpg"
-          },
-          {
-            "sort": 1,
-            "title": "倫敦交響樂團",
-            "picture": "ch_138_01.jpg"
-          },
-          {
-            "sort": 2,
-            "title": "爵士樂/蘋果樹下爵士音樂節",
-            "picture": "ch_138_02.jpg"
-          }
-        ],
-        "epgcategories": [],
-        "genres": [
-          {
-            "name": "Life",
+            "name": "VOD_CHANNEL",
             "id": ""
           }
         ]
@@ -1508,17 +1234,17 @@
           {
             "sort": 0,
             "title": "院會​頻道",
-            "picture": "ch_33_big.jpg"
+            "picture": "ch_186_big.jpg"
           },
           {
             "sort": 1,
             "title": "國會議事",
-            "picture": "ch_33_01.jpg"
+            "picture": "ch_186_01.jpg"
           },
           {
             "sort": 2,
             "title": "國會議事",
-            "picture": "ch_33_02.jpg"
+            "picture": "ch_186_02.jpg"
           }
         ],
         "epgcategories": [],
@@ -5720,6 +5446,631 @@
             "sort": 2,
             "title": "馬勒,-第二號交響曲",
             "picture": "ch_139_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Life",
+            "id": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "愛爾達歡樂餐",
+    "packageType": "VOD",
+    "engName": "Elta",
+    "menuOrder": 9,
+    "key": 83,
+    "channelList": [
+      {
+        "name": "愛爾達綜合台",
+        "categories": [
+          {
+            "name": "綜合",
+            "engName": "Variety",
+            "menuOrder": 2,
+            "key": 1
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv069",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv069_pc.png",
+        "no": "33",
+        "title": "愛爾達綜合台",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv069_pc.png",
+        "contentId": "4gtv-4gtv069",
+        "contentType": "channel",
+        "description": "目前全台最強的HD高畫質綜合頻道。&nbsp;內容包羅萬象、節目精采可期，我們有強檔日本偶像劇、當紅黃金大陸劇、超人氣動畫卡通、自製的旅遊知性及自然人文節目，適合全家大小一起觀賞。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "愛爾達綜合台",
+            "picture": "ch_33_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "新我們這一家",
+            "picture": "ch_33_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "羋月傳",
+            "picture": "ch_33_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Variety",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "愛爾達娛樂台",
+        "categories": [
+          {
+            "name": "綜合",
+            "engName": "Variety",
+            "menuOrder": 2,
+            "key": 1
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv070",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv070_pc.png",
+        "no": "34",
+        "title": "愛爾達娛樂台",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv070_pc.png",
+        "contentId": "4gtv-4gtv070",
+        "contentType": "channel",
+        "description": "愛爾達自製節目包含旅遊、美食、休閒運動、財經、座談等多種類優質內容。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "愛爾達娛樂台",
+            "picture": "ch_34_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "週遊列國",
+            "picture": "ch_34_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "好運呷透透",
+            "picture": "ch_34_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Drama",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "愛爾達影劇台",
+        "categories": [
+          {
+            "name": "戲劇‧影集",
+            "engName": "Drama",
+            "menuOrder": 5,
+            "key": 4
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv071",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv071_pc.png",
+        "no": "44",
+        "title": "愛爾達影劇台",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv071_pc.png",
+        "contentId": "4gtv-4gtv071",
+        "contentType": "channel",
+        "description": "提供精采時裝偶像、華語劇、韓劇、日劇等節目，且一刀未剪原音播出，鎖定輕熟女及熟女族群，ELTA影劇台為喜愛韓劇觀眾的最佳選擇。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "愛爾達影劇台",
+            "picture": "ch_44_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "歡樂頌",
+            "picture": "ch_44_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "大宋傳奇之趙匡胤",
+            "picture": "ch_44_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Drama",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "愛爾達足球台",
+        "categories": [
+          {
+            "name": "體育",
+            "engName": "Sports",
+            "menuOrder": 4,
+            "key": 9
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv036",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv036_pc.png",
+        "no": "74",
+        "title": "愛爾達足球台",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv036_pc.png",
+        "contentId": "4gtv-4gtv036",
+        "contentType": "channel",
+        "description": "2016年愛爾達足球台正式開台，對於臺灣喜愛收看足球賽事的球迷無疑是一大福音。足球台除了將帶來盛大的歐洲冠軍聯賽與歐霸聯賽轉播，未來計畫帶來更多的足球賽事，滿足觀眾視覺享受。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "愛爾達足球台",
+            "picture": "ch_74_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "歐洲國家盃",
+            "picture": "ch_74_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "奧運大觀園",
+            "picture": "ch_74_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Sports",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "愛爾達體育台",
+        "categories": [
+          {
+            "name": "體育",
+            "engName": "Sports",
+            "menuOrder": 4,
+            "key": 9
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv075",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv075_pc.png",
+        "no": "75",
+        "title": "愛爾達體育台",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv075_pc.png",
+        "contentId": "4gtv-4gtv075",
+        "contentType": "channel",
+        "description": "全台灣第一個全HD高畫質製程的專業體育頻道，愛爾達積極引進各種大型世界級賽事如世界盃足球賽與UEFA歐洲冠軍足球聯賽。愛爾達體育台同時全力支持國內運動發展，轉播中華職棒、黑豹旗高中棒球大賽等等國內優質賽事。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "愛爾達體育台",
+            "picture": "ch_75_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "中華職棒",
+            "picture": "ch_75_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "美國游泳大獎賽",
+            "picture": "ch_75_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Sports",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "愛爾達育樂台",
+        "categories": [
+          {
+            "name": "體育",
+            "engName": "Sports",
+            "menuOrder": 4,
+            "key": 9
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv076",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv076_pc.png",
+        "no": "76",
+        "title": "愛爾達育樂台",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv076_pc.png",
+        "contentId": "4gtv-4gtv076",
+        "contentType": "channel",
+        "description": "育樂台賽事陣容與體育台旗鼓相當，包含中華職棒、WTA世界職業女子網球巡迴賽、ITTF桌球世界巡迴賽等等，精采絕倫，保證絕無冷場！除此之外，也全力推廣國人喜愛之運動項目，如桌球、羽球、射箭等。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "愛爾達育樂台",
+            "picture": "ch_76_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "ITTF",
+            "picture": "ch_76_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "WTA",
+            "picture": "ch_76_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Sports",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "TRACE&nbsp;Sport&nbsp;Stars",
+        "categories": [
+          {
+            "name": "體育",
+            "engName": "Sports",
+            "menuOrder": 4,
+            "key": 9
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv077",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv077_pc.png",
+        "no": "86",
+        "title": "TRACE&nbsp;Sport&nbsp;Stars",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv077_pc.png",
+        "contentId": "4gtv-4gtv077",
+        "contentType": "channel",
+        "description": "全球首創致力於報導運動明星生活的娛樂型體育頻道，所有節目都與「運動明星」緊緊相連。從歌星到運動明星的擂台競技，再到時尚設計師為運動名人穿衣打扮，為您呈現運動明星的日常生活與幕後花絮報導。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "TRACE&nbsp;Sport&nbsp;Stars",
+            "picture": "ch_86_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "俱樂部秘辛",
+            "picture": "ch_86_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "真相大白",
+            "picture": "ch_86_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Sports",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "Outdoor&nbsp;Channel",
+        "categories": [
+          {
+            "name": "生活‧學習",
+            "engName": "Life",
+            "menuOrder": 8,
+            "key": 20
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv078",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv078_pc.png",
+        "no": "105",
+        "title": "Outdoor&nbsp;Channel",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv078_pc.png",
+        "contentId": "4gtv-4gtv078",
+        "contentType": "channel",
+        "description": "內容包括釣魚、保育、水上運動、越野極限運動節目，讓喜愛戶外休閒運動的觀眾盡情享受獨一無二的冒險歷程，推廣全球各地不同文種人類珍貴的戶外生活資產。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "Outdoor&nbsp;Channel",
+            "picture": "ch_105_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "Carter's&nbsp;WAR&nbsp;野生動物守護者",
+            "picture": "ch_105_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "2015年釣魚高手團隊日誌",
+            "picture": "ch_105_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Life",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "Travel&nbsp;Channel",
+        "categories": [
+          {
+            "name": "生活‧學習",
+            "engName": "Life",
+            "menuOrder": 8,
+            "key": 20
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv079",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv079_pc.png",
+        "no": "106",
+        "title": "Travel&nbsp;Channel",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv079_pc.png",
+        "contentId": "4gtv-4gtv079",
+        "contentType": "channel",
+        "description": "全球首居一指的高畫質正宗旅遊頻道，提供觀眾獨特旅行觀點。節目內容包括豪華渡假、烹飪任務，背包冒險，還有以大眾化旅遊方式，如鐵路之旅、摩托車之旅等、親子假期等，是全球愛好旅遊者的最佳選擇。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "Travel&nbsp;Channel",
+            "picture": "ch_106_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "美國之美&nbsp;第一季",
+            "picture": "ch_106_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "夏威夷生活",
+            "picture": "ch_106_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Life",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "TRACE&nbsp;Urban",
+        "categories": [
+          {
+            "name": "生活‧學習",
+            "engName": "Life",
+            "menuOrder": 8,
+            "key": 20
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv082",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv082_pc.png",
+        "no": "137",
+        "title": "TRACE&nbsp;Urban",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv082_pc.png",
+        "contentId": "4gtv-4gtv082",
+        "contentType": "channel",
+        "description": "走在時尚尖端、傾力製作的音樂頻道，並宣揚最流行的「都會音樂」風格。除涵蓋各類型音樂曲風外，TRACE&nbsp;Urban主要提供豐富的Hip-hop及R&B曲風，24小時不間斷，讓觀眾隨時沉浸在舒適的都會節奏中。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "TRACE&nbsp;Urban",
+            "picture": "ch_137_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "聚焦：關史蒂芬妮（Gwen&nbsp;Stefani)",
+            "picture": "ch_137_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "大明星：DJ&nbsp;Snake",
+            "picture": "ch_137_02.jpg"
+          }
+        ],
+        "epgcategories": [],
+        "genres": [
+          {
+            "name": "Life",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "name": "Mezzo&nbsp;Live&nbsp;HD",
+        "categories": [
+          {
+            "name": "生活‧學習",
+            "engName": "Life",
+            "menuOrder": 8,
+            "key": 20
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "engName": "Elta",
+            "menuOrder": 0,
+            "key": 83
+          }
+        ],
+        "cdnCode": "4gtv-4gtv083",
+        "isHD": true,
+        "logo": "logo_litv_4gtv-4gtv083_pc.png",
+        "no": "138",
+        "title": "Mezzo&nbsp;Live&nbsp;HD",
+        "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_4gtv-4gtv083_pc.png",
+        "contentId": "4gtv-4gtv083",
+        "contentType": "channel",
+        "description": "製播古典音樂、歌劇、藝術舞蹈聞名全球的文化藝術頻道，不定期現場直播世界知名經典音樂會，讓樂迷在家也能零時差同步感受世界文化氣息。Mezzo&nbsp;Live&nbsp;HD&nbsp;更提供一系列的爵士音樂節目，療癒您一天辛苦工作後的心靈。",
+        "supportType": [
+          "mobile",
+          "pad",
+          "pc",
+          "tv"
+        ],
+        "poster": [
+          {
+            "sort": 0,
+            "title": "Mezzo&nbsp;Live&nbsp;HD",
+            "picture": "ch_138_big.jpg"
+          },
+          {
+            "sort": 1,
+            "title": "倫敦交響樂團",
+            "picture": "ch_138_01.jpg"
+          },
+          {
+            "sort": 2,
+            "title": "爵士樂/蘋果樹下爵士音樂節",
+            "picture": "ch_138_02.jpg"
           }
         ],
         "epgcategories": [],
