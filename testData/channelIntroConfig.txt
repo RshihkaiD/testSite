@@ -10,17 +10,17 @@
   "promoteInfo": [
     {
       "title": "多螢裝置",
-      "icon": "icon_multi-screen.png",
+      "image": "icon_multi-screen.png",
       "clickUrl": "/purchase/multiscreen.do?to=purchaseInfo"
     },
     {
       "title": "立即購買",
-      "icon": "icon_buy.png",
+      "image": "icon_buy.png",
       "clickUrl": "/purchase/?to=purchaseInfo"
     },
     {
       "title": "頻道免費體驗7天",
-      "icon": "icon_free.png",
+      "image": "icon_free.png",
       "clickUrl": "/channel/channel.do?"
     }
   ]
