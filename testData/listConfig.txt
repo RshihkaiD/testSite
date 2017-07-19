@@ -1,0 +1,85 @@
+[
+  {
+    "name": "all",
+    "title": "全部頻道",
+    "description": "100 台精選電視頻道，包含新聞、 政論、體育、財經、戲劇等等。",
+    "listInfoLength": 18,
+    "broughtBtn": {
+      "link": "",
+      "display": false
+    },
+    "floatController": true,
+    "notice": [
+      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »",
+      "其他頻道在電腦/手機/平版/智慧電視/機上盒，皆可多螢觀看。",
+      "部分頻道因版權規範，播出節目會與有線電視有所不同。",
+      "《LiTV線上影視》更多頻道持續增加中，敬請期待！"
+    ]
+  },
+  {
+    "name": "channel_value",
+    "title": "超值組合餐",
+    "description": "100 台精選電視頻道，包含新聞、 政論、體育、財經、戲劇等等。",
+    "listInfoLength": 18,
+    "broughtBtn": {
+      "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_VALUE&to=purchaseInfo&package_id=WD2005&payment=CREDIT",
+      "display": true
+    },
+    "floatController": true,
+    "notice": [
+      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »",
+      "其他頻道在電腦/手機/平版/智慧電視/機上盒，皆可多螢觀看。",
+      "部分頻道因版權規範，播出節目會與有線電視有所不同。",
+      "《LiTV線上影視》更多頻道持續增加中，敬請期待！"
+    ]
+  },
+  {
+    "name": "channel_delux",
+    "title": "豪華組合餐",
+    "description": "100 台精選電視頻道+300 台整套看頻道，包含新聞、 政論、體育、財經、戲劇、綜藝等，最貼近觀眾需求的熱播內容。",
+    "listInfoLength": 18,
+    "broughtBtn": {
+      "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_DELUX&to=purchaseInfo&package_id=XD0005&payment=CREDIT",
+      "display": true
+    },
+    "floatController": true,
+    "notice": [
+      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »",
+      "其他頻道在電腦/手機/平版/智慧電視/機上盒，皆可多螢觀看。",
+      "部分頻道因版權規範，播出節目會與有線電視有所不同。",
+      "《LiTV線上影視》更多頻道持續增加中，敬請期待！"
+    ]
+  },
+  {
+    "name": "channel_elta",
+    "title": "愛爾達歡樂餐",
+    "description": "高畫質影音頻道，精選最新體育賽事、經典戲劇、綜藝、卡通動畫、精選境外節目等多元內容。",
+    "listInfoLength": 18,
+    "broughtBtn": {
+      "link": "/purchase/subscribePackage.do?id=CHANNEL_ELTA&to=purchaseInfo&package_id=CHELTA01&payment=CREDIT",
+      "display": true
+    },
+    "floatController": true,
+    "notice": [
+      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »",
+      "其他頻道在電腦/手機/平版/智慧電視/機上盒，皆可多螢觀看。",
+      "部分頻道因版權規範，播出節目會與有線電視有所不同。",
+      "《LiTV線上影視》更多頻道持續增加中，敬請期待！"
+    ]
+  },
+  {
+    "name": "channel_vchannel",
+    "title": "整套看頻道餐",
+    "description": "300台大數據熱播戲劇/綜藝一次看到完，每月更新，隨時都有最好看的節目內容。",
+    "listInfoLength": 18,
+    "broughtBtn": {
+      "link": "/purchase/subscribePackage.do?id=VCHANNEL&to=purchaseInfo&package_id=SCH001&payment=CREDIT",
+      "display": true
+    },
+    "floatController": true,
+    "notice": [
+      "所有頻道皆可在電視/電腦/手機/平板/機上盒，多螢觀看。",
+      "每月更新頻道內容。"
+    ]
+  }
+]
