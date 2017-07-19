@@ -1,10 +1,10 @@
 {
   "web": {
-    "image": "channel_intro_m.jpg",
+    "image": "channel_intro.jpg",
     "clickUrl": "http://www.mi.com/tw/mibox/"
   },
   "mobile": {
-    "image": "channel_intro.jpg",
+    "image": "channel_intro_m.jpg",
     "clickUrl": "http://www.mi.com/tw/mibox/"
   },
   "promoteInfo": [
