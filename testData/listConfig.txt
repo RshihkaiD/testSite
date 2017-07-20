@@ -1,6 +1,6 @@
 [
   {
-    "name": "all",
+    "name": "ALL",
     "title": "全部頻道",
     "description": "100 台精選電視頻道，包含新聞、 政論、體育、財經、戲劇等等。",
     "listInfoLength": 18,
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "name": "channel_value",
+    "name": "CHANNEL_VALUE",
     "title": "超值組合餐",
     "description": "100 台精選電視頻道，包含新聞、 政論、體育、財經、戲劇等等。",
     "listInfoLength": 18,
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "name": "channel_delux",
+    "name": "CHANNEL_DELUX",
     "title": "豪華組合餐",
     "description": "100 台精選電視頻道+300 台整套看頻道，包含新聞、 政論、體育、財經、戲劇、綜藝等，最貼近觀眾需求的熱播內容。",
     "listInfoLength": 18,
@@ -51,7 +51,7 @@
     ]
   },
   {
-    "name": "channel_elta",
+    "name": "CHANNEL_ELTA",
     "title": "愛爾達歡樂餐",
     "description": "高畫質影音頻道，精選最新體育賽事、經典戲劇、綜藝、卡通動畫、精選境外節目等多元內容。",
     "listInfoLength": 18,
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "name": "channel_vchannel",
+    "name": "CHANNEL_VCHANNEL",
     "title": "整套看頻道餐",
     "description": "300台大數據熱播戲劇/綜藝一次看到完，每月更新，隨時都有最好看的節目內容。",
     "listInfoLength": 18,
