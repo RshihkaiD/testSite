@@ -356,7 +356,7 @@
             "no": 49,
             "auth": false,
             "cdnCode": "litv-vchannel49",
-            "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_litv-vchannel49_pc.png"
+            "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel049_pc.png"
           }
         ]
       },
@@ -2215,525 +2215,525 @@
         "channelList": [
           {
             "title": "皮諾丘",
-            "no": "91",
+            "no": 91,
             "auth": false,
             "cdnCode": "litv-vchannel91",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "浪漫醫生金師傅",
-            "no": "168",
+            "no": 168,
             "auth": false,
             "cdnCode": "litv-vchannel168",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "雲畫的月光",
-            "no": "176",
+            "no": 176,
             "auth": false,
             "cdnCode": "litv-vchannel176",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "W－兩個世界",
-            "no": "180",
+            "no": 180,
             "auth": false,
             "cdnCode": "litv-vchannel180",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "大力女子都奉順",
-            "no": "185",
+            "no": 185,
             "auth": false,
             "cdnCode": "litv-vchannel185",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "奇皇后",
-            "no": "190",
+            "no": 190,
             "auth": false,
             "cdnCode": "litv-vchannel190",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "我女婿的女人",
-            "no": "194",
+            "no": 194,
             "auth": false,
             "cdnCode": "litv-vchannel194",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "Oh&nbsp;My&nbsp;Venus",
-            "no": "198",
+            "no": 198,
             "auth": false,
             "cdnCode": "litv-vchannel198",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "吹吧微風(國語配音)",
-            "no": "200",
+            "no": 200,
             "auth": false,
             "cdnCode": "litv-vchannel200",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "五個孩子(國語配音)",
-            "no": "201",
+            "no": 201,
             "auth": false,
             "cdnCode": "litv-vchannel201",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "我女婿的女人(國語配音)",
-            "no": "202",
+            "no": 202,
             "auth": false,
             "cdnCode": "litv-vchannel202",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "只想為你(國語配音)",
-            "no": "203",
+            "no": 203,
             "auth": false,
             "cdnCode": "litv-vchannel203",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "(國)看見味道的少女",
-            "no": "204",
+            "no": 204,
             "auth": false,
             "cdnCode": "litv-vchannel204",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "善良醫生",
-            "no": "208",
+            "no": 208,
             "auth": false,
             "cdnCode": "litv-vchannel208",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "治癒者",
-            "no": "212",
+            "no": 212,
             "auth": false,
             "cdnCode": "litv-vchannel212",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "吹吧微風",
-            "no": "217",
+            "no": 217,
             "auth": false,
             "cdnCode": "litv-vchannel217",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "夜行書生",
-            "no": "224",
+            "no": 224,
             "auth": false,
             "cdnCode": "litv-vchannel224",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "製作人的那些事",
-            "no": "228",
+            "no": 228,
             "auth": false,
             "cdnCode": "litv-vchannel228",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "五個孩子",
-            "no": "233",
+            "no": 233,
             "auth": false,
             "cdnCode": "litv-vchannel233",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "母親",
-            "no": "237",
+            "no": 237,
             "auth": false,
             "cdnCode": "litv-vchannel237",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "偉大的糟糠之妻",
-            "no": "241",
+            "no": 241,
             "auth": false,
             "cdnCode": "litv-vchannel241",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "為愛美麗",
-            "no": "245",
+            "no": 245,
             "auth": false,
             "cdnCode": "litv-vchannel245",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "好好養大的女兒",
-            "no": "249",
+            "no": 249,
             "auth": false,
             "cdnCode": "litv-vchannel249",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "上流緋聞",
-            "no": "253",
+            "no": 253,
             "auth": false,
             "cdnCode": "litv-vchannel253",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "來自星星的你",
-            "no": "263",
+            "no": 263,
             "auth": false,
             "cdnCode": "litv-vchannel263",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "咖啡王子1號店",
-            "no": "268",
+            "no": 268,
             "auth": false,
             "cdnCode": "litv-vchannel268",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "主君密碼",
-            "no": "272",
+            "no": 272,
             "auth": false,
             "cdnCode": "litv-vchannel272",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "愛你的時間",
-            "no": "277",
+            "no": 277,
             "auth": false,
             "cdnCode": "litv-vchannel277",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "好運羅曼史",
-            "no": "281",
+            "no": 281,
             "auth": false,
             "cdnCode": "litv-vchannel281",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "家人之間",
-            "no": "288",
+            "no": 288,
             "auth": false,
             "cdnCode": "litv-vchannel288",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "只想為你",
-            "no": "292",
+            "no": 292,
             "auth": false,
             "cdnCode": "litv-vchannel292",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "她很漂亮",
-            "no": "297",
+            "no": 297,
             "auth": false,
             "cdnCode": "litv-vchannel297",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "龍八夷",
-            "no": "301",
+            "no": 301,
             "auth": false,
             "cdnCode": "litv-vchannel301",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "看見味道的少女",
-            "no": "305",
+            "no": 305,
             "auth": false,
             "cdnCode": "litv-vchannel305",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "秘密",
-            "no": "309",
+            "no": 309,
             "auth": false,
             "cdnCode": "litv-vchannel309",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "預約愛情",
-            "no": "313",
+            "no": 313,
             "auth": false,
             "cdnCode": "litv-vchannel313",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "青鳥之家",
-            "no": "317",
+            "no": 317,
             "auth": false,
             "cdnCode": "litv-vchannel317",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "布穀鳥之巢",
-            "no": "334",
+            "no": 334,
             "auth": false,
             "cdnCode": "litv-vchannel334",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "全部我的愛",
-            "no": "335",
+            "no": 335,
             "auth": false,
             "cdnCode": "litv-vchannel335",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "華麗的對決",
-            "no": "336",
+            "no": 336,
             "auth": false,
             "cdnCode": "litv-vchannel336",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "紅寶石戒指",
-            "no": "337",
+            "no": 337,
             "auth": false,
             "cdnCode": "litv-vchannel337",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "廣告天才李太白",
-            "no": "352",
+            "no": 352,
             "auth": false,
             "cdnCode": "litv-vchannel352",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "12年後的重逢",
-            "no": "353",
+            "no": 353,
             "auth": false,
             "cdnCode": "litv-vchannel353",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "奇妙一家人",
-            "no": "354",
+            "no": 354,
             "auth": false,
             "cdnCode": "litv-vchannel354",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "發酵家族",
-            "no": "355",
+            "no": 355,
             "auth": false,
             "cdnCode": "litv-vchannel355",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "最佳李純信",
-            "no": "356",
+            "no": 356,
             "auth": false,
             "cdnCode": "litv-vchannel356",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "命中注定我愛你",
-            "no": "367",
+            "no": 367,
             "auth": false,
             "cdnCode": "litv-vchannel367",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "愛上恢單女",
-            "no": "368",
+            "no": 368,
             "auth": false,
             "cdnCode": "litv-vchannel368",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "逆轉人生",
-            "no": "369",
+            "no": 369,
             "auth": false,
             "cdnCode": "litv-vchannel369",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "心情好又暖",
-            "no": "370",
+            "no": 370,
             "auth": false,
             "cdnCode": "litv-vchannel370",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "我人生的春天",
-            "no": "371",
+            "no": 371,
             "auth": false,
             "cdnCode": "litv-vchannel371",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "薔花與紅蓮",
-            "no": "377",
+            "no": 377,
             "auth": false,
             "cdnCode": "litv-vchannel377",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "安托萬夫人",
-            "no": "378",
+            "no": 378,
             "auth": false,
             "cdnCode": "litv-vchannel378",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "天使之眼",
-            "no": "379",
+            "no": 379,
             "auth": false,
             "cdnCode": "litv-vchannel379",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "美女孔心",
-            "no": "380",
+            "no": 380,
             "auth": false,
             "cdnCode": "litv-vchannel380",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "黃真伊",
-            "no": "381",
+            "no": 381,
             "auth": false,
             "cdnCode": "litv-vchannel381",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "酒店之王",
-            "no": "405",
+            "no": 405,
             "auth": false,
             "cdnCode": "litv-vchannel405",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "麵包王金卓求",
-            "no": "406",
+            "no": 406,
             "auth": false,
             "cdnCode": "litv-vchannel406",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "你們被包圍了",
-            "no": "407",
+            "no": 407,
             "auth": false,
             "cdnCode": "litv-vchannel407",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "張玉貞，為愛而生",
-            "no": "408",
+            "no": 408,
             "auth": false,
             "cdnCode": "litv-vchannel408",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "成均館緋聞",
-            "no": "409",
+            "no": 409,
             "auth": false,
             "cdnCode": "litv-vchannel409",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "魔法麵包店",
-            "no": "415",
+            "no": 415,
             "auth": false,
             "cdnCode": "litv-vchannel415",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "甜蜜的秘密",
-            "no": "416",
+            "no": 416,
             "auth": false,
             "cdnCode": "litv-vchannel416",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "職場女神",
-            "no": "417",
+            "no": 417,
             "auth": false,
             "cdnCode": "litv-vchannel417",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "千日的約定",
-            "no": "418",
+            "no": 418,
             "auth": false,
             "cdnCode": "litv-vchannel418",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "灰姑娘的姐姐",
-            "no": "419",
+            "no": 419,
             "auth": false,
             "cdnCode": "litv-vchannel419",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "仁粹大妃",
-            "no": "425",
+            "no": 425,
             "auth": false,
             "cdnCode": "litv-vchannel425",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "富翁的誕生",
-            "no": "426",
+            "no": 426,
             "auth": false,
             "cdnCode": "litv-vchannel426",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "花的戰爭",
-            "no": "427",
+            "no": 427,
             "auth": false,
             "cdnCode": "litv-vchannel427",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "Dream&nbsp;High2&nbsp;夢想高飛2",
-            "no": "428",
+            "no": 428,
             "auth": false,
             "cdnCode": "litv-vchannel428",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "MONSTAR",
-            "no": "429",
+            "no": 429,
             "auth": false,
             "cdnCode": "litv-vchannel429",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "住在清潭洞",
-            "no": "430",
+            "no": 430,
             "auth": false,
             "cdnCode": "litv-vchannel430",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "不善良的女人們",
-            "no": "431",
+            "no": 431,
             "auth": false,
             "cdnCode": "litv-vchannel431",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "不朽的韓食(國)",
-            "no": "432",
+            "no": 432,
             "auth": false,
             "cdnCode": "litv-vchannel432",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "憤怒的媽媽",
-            "no": "433",
+            "no": 433,
             "auth": false,
             "cdnCode": "litv-vchannel433",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
@@ -2741,456 +2741,456 @@
         ]
       },
       {
-        "name": "整套看頻道-港劇",
+        "title": "整套看頻道-港劇",
         "fontColor": "#8eae41",
         "bgColor": "rgba(142, 174, 65, 0.1)",
         "channelList": [
           {
             "title": "On&nbsp;Call&nbsp;36小時(粵語版)",
-            "no": "500",
+            "no": 500,
             "cdnCode": "litv-vchannel500",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "On&nbsp;Call&nbsp;36小時(國語配音)",
-            "no": "501",
+            "no": 501,
             "cdnCode": "litv-vchannel501",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "富貴門(粵語版)",
-            "no": "502",
+            "no": 502,
             "cdnCode": "litv-vchannel502",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "富貴門(國語配音)",
-            "no": "503",
+            "no": 503,
             "cdnCode": "litv-vchannel503",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "風雲天地(粵語版)",
-            "no": "504",
+            "no": 504,
             "cdnCode": "litv-vchannel504",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "風雲天地(國語配音)",
-            "no": "505",
+            "no": 505,
             "cdnCode": "litv-vchannel505",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "仁心解碼(粵語版)",
-            "no": "506",
+            "no": 506,
             "cdnCode": "litv-vchannel506",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "仁心解碼(國語配音)",
-            "no": "507",
+            "no": 507,
             "cdnCode": "litv-vchannel507",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "珠光寶氣(粵語版)",
-            "no": "508",
+            "no": 508,
             "cdnCode": "litv-vchannel508",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "珠光寶氣(國語配音)",
-            "no": "509",
+            "no": 509,
             "cdnCode": "litv-vchannel509",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-經典",
+        "title": "整套看頻道-經典",
         "fontColor": "#04aba9",
         "bgColor": "rgba(4, 171, 169, 0.1)",
         "channelList": [
           {
             "title": "京城四少",
-            "no": "550",
+            "no": 550,
             "cdnCode": "litv-vchannel550",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "京華煙雲(1988年版)",
-            "no": "551",
+            "no": 551,
             "cdnCode": "litv-vchannel551",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "藍與黑",
-            "no": "552",
+            "no": 552,
             "cdnCode": "litv-vchannel552",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "冰點",
-            "no": "553",
+            "no": 553,
             "cdnCode": "litv-vchannel553",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "大兵日記",
-            "no": "554",
+            "no": 554,
             "cdnCode": "litv-vchannel554",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "飛龍在天",
-            "no": "555",
+            "no": 555,
             "cdnCode": "litv-vchannel555",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "七俠五義",
-            "no": "556",
+            "no": 556,
             "cdnCode": "litv-vchannel556",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "包青天&nbsp;1993版",
-            "no": "557",
+            "no": 557,
             "cdnCode": "litv-vchannel557",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "庭院深深",
-            "no": "558",
+            "no": 558,
             "cdnCode": "litv-vchannel558",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "驚世媳婦&nbsp;&nbsp;",
-            "no": "559",
+            "no": 559,
             "cdnCode": "litv-vchannel559",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "勸世媳婦",
-            "no": "560",
+            "no": 560,
             "cdnCode": "litv-vchannel560",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "醒世媳婦",
-            "no": "561",
+            "no": 561,
             "cdnCode": "litv-vchannel561",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "菅芒花的春天",
-            "no": "562",
+            "no": 562,
             "cdnCode": "litv-vchannel562",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "春天後母心",
-            "no": "563",
+            "no": 563,
             "cdnCode": "litv-vchannel563",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "春天父母心",
-            "no": "564",
+            "no": 564,
             "cdnCode": "litv-vchannel564",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-遊戲挑戰",
+        "title": "整套看頻道-遊戲挑戰",
         "fontColor": "#4575d1",
         "bgColor": "rgba(69, 117, 209, 0.1)",
         "channelList": [
           {
             "title": "天才衝衝衝",
-            "no": "121",
+            "no": 121,
             "cdnCode": "litv-vchannel121",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "極限挑戰2",
-            "no": "177",
+            "no": 177,
             "cdnCode": "litv-vchannel177",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "名模出任務",
-            "no": "195",
+            "no": 195,
             "cdnCode": "litv-vchannel195",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "極限挑戰1",
-            "no": "238",
+            "no": 238,
             "cdnCode": "litv-vchannel238",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "財神向錢衝",
-            "no": "269",
+            "no": 269,
             "cdnCode": "litv-vchannel269",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-旅遊美食",
+        "title": "整套看頻道-旅遊美食",
         "fontColor": "#ea1373",
         "bgColor": "rgba(234, 19, 115, 0.1)",
         "channelList": [
           {
             "title": "世界第一等",
-            "no": "122",
+            "no": 122,
             "cdnCode": "litv-vchannel122",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "食尚玩家",
-            "no": "169",
+            "no": 169,
             "cdnCode": "litv-vchannel169",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "故鄉好滋味",
-            "no": "191",
+            "no": 191,
             "cdnCode": "litv-vchannel191",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "美食第一等",
-            "no": "209",
+            "no": 209,
             "cdnCode": "litv-vchannel209",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "台灣1001個故事",
-            "no": "220",
+            "no": 220,
             "cdnCode": "litv-vchannel220",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "非凡大探索",
-            "no": "242",
+            "no": 242,
             "cdnCode": "litv-vchannel242",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "台灣真善美",
-            "no": "246",
+            "no": 246,
             "cdnCode": "litv-vchannel246",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "型男闖世界",
-            "no": "289",
+            "no": 289,
             "cdnCode": "litv-vchannel289",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "360行向前衝",
-            "no": "294",
+            "no": 294,
             "cdnCode": "litv-vchannel294",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "小資FUN輕鬆",
-            "no": "302",
+            "no": 302,
             "cdnCode": "litv-vchannel302",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "美鳳有約",
-            "no": "314",
+            "no": 314,
             "cdnCode": "litv-vchannel314",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "閱讀青旅行",
-            "no": "320",
+            "no": 320,
             "cdnCode": "litv-vchannel320",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "發現地中海",
-            "no": "321",
+            "no": 321,
             "cdnCode": "litv-vchannel321",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "12道鋒味",
-            "no": "322",
+            "no": 322,
             "cdnCode": "litv-vchannel322",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "星廚駕到",
-            "no": "323",
+            "no": 323,
             "cdnCode": "litv-vchannel323",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "我們EYE旅行",
-            "no": "324",
+            "no": 324,
             "cdnCode": "litv-vchannel324",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-談話",
+        "title": "整套看頻道-談話",
         "fontColor": "#9052aa",
         "bgColor": "rgba(144, 82, 170, 0.1)",
         "channelList": [
           {
             "title": "2分之一強",
-            "no": "123",
+            "no": 123,
             "cdnCode": "litv-vchannel123",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "WTO姐妹會",
-            "no": "172",
+            "no": 172,
             "cdnCode": "litv-vchannel172",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "小明星大跟班",
-            "no": "181",
+            "no": 181,
             "cdnCode": "litv-vchannel181",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "上班這黨事",
-            "no": "225",
+            "no": 225,
             "cdnCode": "litv-vchannel225",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "女人我最大",
-            "no": "230",
+            "no": 230,
             "cdnCode": "litv-vchannel230",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "康熙來了(精選)",
-            "no": "234",
+            "no": 234,
             "cdnCode": "litv-vchannel234",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "健康NO.1",
-            "no": "255",
+            "no": 255,
             "cdnCode": "litv-vchannel255",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "醫師好辣",
-            "no": "274",
+            "no": 274,
             "cdnCode": "litv-vchannel274",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "幸福來敲門",
-            "no": "310",
+            "no": 310,
             "cdnCode": "litv-vchannel310",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "幸福學堂",
-            "no": "360",
+            "no": 360,
             "cdnCode": "litv-vchannel360",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "玩美的人類",
-            "no": "361",
+            "no": 361,
             "cdnCode": "litv-vchannel361",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看-音樂選秀",
+        "title": "整套看-音樂選秀",
         "fontColor": "#ff9600",
         "bgColor": "rgba(230, 140, 0, 0.1)",
         "channelList": [
           {
             "title": "華視天王豬哥秀",
-            "no": "170",
+            "no": 170,
             "cdnCode": "litv-vchannel170",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "我是歌手4",
-            "no": "187",
+            "no": 187,
             "cdnCode": "litv-vchannel187",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "我是歌手3",
-            "no": "213",
+            "no": 213,
             "cdnCode": "litv-vchannel213",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "明日之星",
-            "no": "250",
+            "no": 250,
             "cdnCode": "litv-vchannel250",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "台灣那麼旺",
-            "no": "260",
+            "no": 260,
             "cdnCode": "litv-vchannel260",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "中國達人秀",
-            "no": "264",
+            "no": 264,
             "cdnCode": "litv-vchannel264",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "誰是大歌神",
-            "no": "278",
+            "no": 278,
             "cdnCode": "litv-vchannel278",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "三星報囍",
-            "no": "285",
+            "no": 285,
             "cdnCode": "litv-vchannel285",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "舞力全開",
-            "no": "306",
+            "no": 306,
             "cdnCode": "litv-vchannel306",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "王牌雙響炮",
-            "no": "340",
+            "no": 340,
             "cdnCode": "litv-vchannel340",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "文茜的音樂故事",
-            "no": "341",
+            "no": 341,
             "cdnCode": "litv-vchannel341",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "心靈不打烊",
-            "no": "342",
+            "no": 342,
             "cdnCode": "litv-vchannel342",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           }
@@ -3198,7 +3198,7 @@
       }
     ],
     "notice": [
-      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »",
+      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »</a>",
       "其他頻道在電腦/手機/平版/智慧電視/機上盒，皆可多螢觀看。",
       "部分頻道因版權規範，播出節目會與有線電視有所不同。",
       "《LiTV線上影視》更多頻道持續增加中，敬請期待！"
@@ -3540,7 +3540,7 @@
             "no": 49,
             "auth": false,
             "cdnCode": "litv-vchannel49",
-            "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_litv-vchannel49_pc.png"
+            "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel049_pc.png"
           }
         ]
       },
@@ -3896,7 +3896,7 @@
       }
     ],
     "notice": [
-      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »",
+      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »</a>",
       "其他頻道在電腦/手機/平版/智慧電視/機上盒，皆可多螢觀看。",
       "部分頻道因版權規範，播出節目會與有線電視有所不同。",
       "《LiTV線上影視》更多頻道持續增加中，敬請期待！"
@@ -4238,7 +4238,7 @@
             "no": 49,
             "auth": false,
             "cdnCode": "litv-vchannel49",
-            "picture": "https://cdnstatic-staging.svc.litv.tv/logo_litv_litv-vchannel49_pc.png"
+            "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel049_pc.png"
           }
         ]
       },
@@ -6041,525 +6041,525 @@
         "channelList": [
           {
             "title": "皮諾丘",
-            "no": "91",
+            "no": 91,
             "auth": false,
             "cdnCode": "litv-vchannel91",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "浪漫醫生金師傅",
-            "no": "168",
+            "no": 168,
             "auth": false,
             "cdnCode": "litv-vchannel168",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "雲畫的月光",
-            "no": "176",
+            "no": 176,
             "auth": false,
             "cdnCode": "litv-vchannel176",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "W－兩個世界",
-            "no": "180",
+            "no": 180,
             "auth": false,
             "cdnCode": "litv-vchannel180",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "大力女子都奉順",
-            "no": "185",
+            "no": 185,
             "auth": false,
             "cdnCode": "litv-vchannel185",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "奇皇后",
-            "no": "190",
+            "no": 190,
             "auth": false,
             "cdnCode": "litv-vchannel190",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "我女婿的女人",
-            "no": "194",
+            "no": 194,
             "auth": false,
             "cdnCode": "litv-vchannel194",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "Oh&nbsp;My&nbsp;Venus",
-            "no": "198",
+            "no": 198,
             "auth": false,
             "cdnCode": "litv-vchannel198",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "吹吧微風(國語配音)",
-            "no": "200",
+            "no": 200,
             "auth": false,
             "cdnCode": "litv-vchannel200",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "五個孩子(國語配音)",
-            "no": "201",
+            "no": 201,
             "auth": false,
             "cdnCode": "litv-vchannel201",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "我女婿的女人(國語配音)",
-            "no": "202",
+            "no": 202,
             "auth": false,
             "cdnCode": "litv-vchannel202",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "只想為你(國語配音)",
-            "no": "203",
+            "no": 203,
             "auth": false,
             "cdnCode": "litv-vchannel203",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "(國)看見味道的少女",
-            "no": "204",
+            "no": 204,
             "auth": false,
             "cdnCode": "litv-vchannel204",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "善良醫生",
-            "no": "208",
+            "no": 208,
             "auth": false,
             "cdnCode": "litv-vchannel208",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "治癒者",
-            "no": "212",
+            "no": 212,
             "auth": false,
             "cdnCode": "litv-vchannel212",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "吹吧微風",
-            "no": "217",
+            "no": 217,
             "auth": false,
             "cdnCode": "litv-vchannel217",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "夜行書生",
-            "no": "224",
+            "no": 224,
             "auth": false,
             "cdnCode": "litv-vchannel224",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "製作人的那些事",
-            "no": "228",
+            "no": 228,
             "auth": false,
             "cdnCode": "litv-vchannel228",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "五個孩子",
-            "no": "233",
+            "no": 233,
             "auth": false,
             "cdnCode": "litv-vchannel233",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "母親",
-            "no": "237",
+            "no": 237,
             "auth": false,
             "cdnCode": "litv-vchannel237",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "偉大的糟糠之妻",
-            "no": "241",
+            "no": 241,
             "auth": false,
             "cdnCode": "litv-vchannel241",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "為愛美麗",
-            "no": "245",
+            "no": 245,
             "auth": false,
             "cdnCode": "litv-vchannel245",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "好好養大的女兒",
-            "no": "249",
+            "no": 249,
             "auth": false,
             "cdnCode": "litv-vchannel249",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "上流緋聞",
-            "no": "253",
+            "no": 253,
             "auth": false,
             "cdnCode": "litv-vchannel253",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "來自星星的你",
-            "no": "263",
+            "no": 263,
             "auth": false,
             "cdnCode": "litv-vchannel263",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "咖啡王子1號店",
-            "no": "268",
+            "no": 268,
             "auth": false,
             "cdnCode": "litv-vchannel268",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "主君密碼",
-            "no": "272",
+            "no": 272,
             "auth": false,
             "cdnCode": "litv-vchannel272",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "愛你的時間",
-            "no": "277",
+            "no": 277,
             "auth": false,
             "cdnCode": "litv-vchannel277",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "好運羅曼史",
-            "no": "281",
+            "no": 281,
             "auth": false,
             "cdnCode": "litv-vchannel281",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "家人之間",
-            "no": "288",
+            "no": 288,
             "auth": false,
             "cdnCode": "litv-vchannel288",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "只想為你",
-            "no": "292",
+            "no": 292,
             "auth": false,
             "cdnCode": "litv-vchannel292",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "她很漂亮",
-            "no": "297",
+            "no": 297,
             "auth": false,
             "cdnCode": "litv-vchannel297",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "龍八夷",
-            "no": "301",
+            "no": 301,
             "auth": false,
             "cdnCode": "litv-vchannel301",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "看見味道的少女",
-            "no": "305",
+            "no": 305,
             "auth": false,
             "cdnCode": "litv-vchannel305",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "秘密",
-            "no": "309",
+            "no": 309,
             "auth": false,
             "cdnCode": "litv-vchannel309",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "預約愛情",
-            "no": "313",
+            "no": 313,
             "auth": false,
             "cdnCode": "litv-vchannel313",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "青鳥之家",
-            "no": "317",
+            "no": 317,
             "auth": false,
             "cdnCode": "litv-vchannel317",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "布穀鳥之巢",
-            "no": "334",
+            "no": 334,
             "auth": false,
             "cdnCode": "litv-vchannel334",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "全部我的愛",
-            "no": "335",
+            "no": 335,
             "auth": false,
             "cdnCode": "litv-vchannel335",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "華麗的對決",
-            "no": "336",
+            "no": 336,
             "auth": false,
             "cdnCode": "litv-vchannel336",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "紅寶石戒指",
-            "no": "337",
+            "no": 337,
             "auth": false,
             "cdnCode": "litv-vchannel337",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "廣告天才李太白",
-            "no": "352",
+            "no": 352,
             "auth": false,
             "cdnCode": "litv-vchannel352",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "12年後的重逢",
-            "no": "353",
+            "no": 353,
             "auth": false,
             "cdnCode": "litv-vchannel353",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "奇妙一家人",
-            "no": "354",
+            "no": 354,
             "auth": false,
             "cdnCode": "litv-vchannel354",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "發酵家族",
-            "no": "355",
+            "no": 355,
             "auth": false,
             "cdnCode": "litv-vchannel355",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "最佳李純信",
-            "no": "356",
+            "no": 356,
             "auth": false,
             "cdnCode": "litv-vchannel356",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "命中注定我愛你",
-            "no": "367",
+            "no": 367,
             "auth": false,
             "cdnCode": "litv-vchannel367",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "愛上恢單女",
-            "no": "368",
+            "no": 368,
             "auth": false,
             "cdnCode": "litv-vchannel368",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "逆轉人生",
-            "no": "369",
+            "no": 369,
             "auth": false,
             "cdnCode": "litv-vchannel369",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "心情好又暖",
-            "no": "370",
+            "no": 370,
             "auth": false,
             "cdnCode": "litv-vchannel370",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "我人生的春天",
-            "no": "371",
+            "no": 371,
             "auth": false,
             "cdnCode": "litv-vchannel371",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "薔花與紅蓮",
-            "no": "377",
+            "no": 377,
             "auth": false,
             "cdnCode": "litv-vchannel377",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "安托萬夫人",
-            "no": "378",
+            "no": 378,
             "auth": false,
             "cdnCode": "litv-vchannel378",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "天使之眼",
-            "no": "379",
+            "no": 379,
             "auth": false,
             "cdnCode": "litv-vchannel379",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "美女孔心",
-            "no": "380",
+            "no": 380,
             "auth": false,
             "cdnCode": "litv-vchannel380",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "黃真伊",
-            "no": "381",
+            "no": 381,
             "auth": false,
             "cdnCode": "litv-vchannel381",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "酒店之王",
-            "no": "405",
+            "no": 405,
             "auth": false,
             "cdnCode": "litv-vchannel405",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "麵包王金卓求",
-            "no": "406",
+            "no": 406,
             "auth": false,
             "cdnCode": "litv-vchannel406",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "你們被包圍了",
-            "no": "407",
+            "no": 407,
             "auth": false,
             "cdnCode": "litv-vchannel407",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "張玉貞，為愛而生",
-            "no": "408",
+            "no": 408,
             "auth": false,
             "cdnCode": "litv-vchannel408",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "成均館緋聞",
-            "no": "409",
+            "no": 409,
             "auth": false,
             "cdnCode": "litv-vchannel409",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "魔法麵包店",
-            "no": "415",
+            "no": 415,
             "auth": false,
             "cdnCode": "litv-vchannel415",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "甜蜜的秘密",
-            "no": "416",
+            "no": 416,
             "auth": false,
             "cdnCode": "litv-vchannel416",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "職場女神",
-            "no": "417",
+            "no": 417,
             "auth": false,
             "cdnCode": "litv-vchannel417",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "千日的約定",
-            "no": "418",
+            "no": 418,
             "auth": false,
             "cdnCode": "litv-vchannel418",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "灰姑娘的姐姐",
-            "no": "419",
+            "no": 419,
             "auth": false,
             "cdnCode": "litv-vchannel419",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "仁粹大妃",
-            "no": "425",
+            "no": 425,
             "auth": false,
             "cdnCode": "litv-vchannel425",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "富翁的誕生",
-            "no": "426",
+            "no": 426,
             "auth": false,
             "cdnCode": "litv-vchannel426",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "花的戰爭",
-            "no": "427",
+            "no": 427,
             "auth": false,
             "cdnCode": "litv-vchannel427",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "Dream&nbsp;High2&nbsp;夢想高飛2",
-            "no": "428",
+            "no": 428,
             "auth": false,
             "cdnCode": "litv-vchannel428",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "MONSTAR",
-            "no": "429",
+            "no": 429,
             "auth": false,
             "cdnCode": "litv-vchannel429",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "住在清潭洞",
-            "no": "430",
+            "no": 430,
             "auth": false,
             "cdnCode": "litv-vchannel430",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "不善良的女人們",
-            "no": "431",
+            "no": 431,
             "auth": false,
             "cdnCode": "litv-vchannel431",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "不朽的韓食(國)",
-            "no": "432",
+            "no": 432,
             "auth": false,
             "cdnCode": "litv-vchannel432",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "憤怒的媽媽",
-            "no": "433",
+            "no": 433,
             "auth": false,
             "cdnCode": "litv-vchannel433",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
@@ -6567,456 +6567,456 @@
         ]
       },
       {
-        "name": "整套看頻道-港劇",
+        "title": "整套看頻道-港劇",
         "fontColor": "#8eae41",
         "bgColor": "rgba(142, 174, 65, 0.1)",
         "channelList": [
           {
             "title": "On&nbsp;Call&nbsp;36小時(粵語版)",
-            "no": "500",
+            "no": 500,
             "cdnCode": "litv-vchannel500",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "On&nbsp;Call&nbsp;36小時(國語配音)",
-            "no": "501",
+            "no": 501,
             "cdnCode": "litv-vchannel501",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "富貴門(粵語版)",
-            "no": "502",
+            "no": 502,
             "cdnCode": "litv-vchannel502",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "富貴門(國語配音)",
-            "no": "503",
+            "no": 503,
             "cdnCode": "litv-vchannel503",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "風雲天地(粵語版)",
-            "no": "504",
+            "no": 504,
             "cdnCode": "litv-vchannel504",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "風雲天地(國語配音)",
-            "no": "505",
+            "no": 505,
             "cdnCode": "litv-vchannel505",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "仁心解碼(粵語版)",
-            "no": "506",
+            "no": 506,
             "cdnCode": "litv-vchannel506",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "仁心解碼(國語配音)",
-            "no": "507",
+            "no": 507,
             "cdnCode": "litv-vchannel507",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "珠光寶氣(粵語版)",
-            "no": "508",
+            "no": 508,
             "cdnCode": "litv-vchannel508",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "珠光寶氣(國語配音)",
-            "no": "509",
+            "no": 509,
             "cdnCode": "litv-vchannel509",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-經典",
+        "title": "整套看頻道-經典",
         "fontColor": "#04aba9",
         "bgColor": "rgba(4, 171, 169, 0.1)",
         "channelList": [
           {
             "title": "京城四少",
-            "no": "550",
+            "no": 550,
             "cdnCode": "litv-vchannel550",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "京華煙雲(1988年版)",
-            "no": "551",
+            "no": 551,
             "cdnCode": "litv-vchannel551",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "藍與黑",
-            "no": "552",
+            "no": 552,
             "cdnCode": "litv-vchannel552",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "冰點",
-            "no": "553",
+            "no": 553,
             "cdnCode": "litv-vchannel553",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "大兵日記",
-            "no": "554",
+            "no": 554,
             "cdnCode": "litv-vchannel554",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "飛龍在天",
-            "no": "555",
+            "no": 555,
             "cdnCode": "litv-vchannel555",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "七俠五義",
-            "no": "556",
+            "no": 556,
             "cdnCode": "litv-vchannel556",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "包青天&nbsp;1993版",
-            "no": "557",
+            "no": 557,
             "cdnCode": "litv-vchannel557",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "庭院深深",
-            "no": "558",
+            "no": 558,
             "cdnCode": "litv-vchannel558",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "驚世媳婦&nbsp;&nbsp;",
-            "no": "559",
+            "no": 559,
             "cdnCode": "litv-vchannel559",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "勸世媳婦",
-            "no": "560",
+            "no": 560,
             "cdnCode": "litv-vchannel560",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "醒世媳婦",
-            "no": "561",
+            "no": 561,
             "cdnCode": "litv-vchannel561",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "菅芒花的春天",
-            "no": "562",
+            "no": 562,
             "cdnCode": "litv-vchannel562",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "春天後母心",
-            "no": "563",
+            "no": 563,
             "cdnCode": "litv-vchannel563",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "春天父母心",
-            "no": "564",
+            "no": 564,
             "cdnCode": "litv-vchannel564",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-遊戲挑戰",
+        "title": "整套看頻道-遊戲挑戰",
         "fontColor": "#4575d1",
         "bgColor": "rgba(69, 117, 209, 0.1)",
         "channelList": [
           {
             "title": "天才衝衝衝",
-            "no": "121",
+            "no": 121,
             "cdnCode": "litv-vchannel121",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "極限挑戰2",
-            "no": "177",
+            "no": 177,
             "cdnCode": "litv-vchannel177",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "名模出任務",
-            "no": "195",
+            "no": 195,
             "cdnCode": "litv-vchannel195",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "極限挑戰1",
-            "no": "238",
+            "no": 238,
             "cdnCode": "litv-vchannel238",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "財神向錢衝",
-            "no": "269",
+            "no": 269,
             "cdnCode": "litv-vchannel269",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-旅遊美食",
+        "title": "整套看頻道-旅遊美食",
         "fontColor": "#ea1373",
         "bgColor": "rgba(234, 19, 115, 0.1)",
         "channelList": [
           {
             "title": "世界第一等",
-            "no": "122",
+            "no": 122,
             "cdnCode": "litv-vchannel122",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "食尚玩家",
-            "no": "169",
+            "no": 169,
             "cdnCode": "litv-vchannel169",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "故鄉好滋味",
-            "no": "191",
+            "no": 191,
             "cdnCode": "litv-vchannel191",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "美食第一等",
-            "no": "209",
+            "no": 209,
             "cdnCode": "litv-vchannel209",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "台灣1001個故事",
-            "no": "220",
+            "no": 220,
             "cdnCode": "litv-vchannel220",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "非凡大探索",
-            "no": "242",
+            "no": 242,
             "cdnCode": "litv-vchannel242",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "台灣真善美",
-            "no": "246",
+            "no": 246,
             "cdnCode": "litv-vchannel246",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "型男闖世界",
-            "no": "289",
+            "no": 289,
             "cdnCode": "litv-vchannel289",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "360行向前衝",
-            "no": "294",
+            "no": 294,
             "cdnCode": "litv-vchannel294",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "小資FUN輕鬆",
-            "no": "302",
+            "no": 302,
             "cdnCode": "litv-vchannel302",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "美鳳有約",
-            "no": "314",
+            "no": 314,
             "cdnCode": "litv-vchannel314",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "閱讀青旅行",
-            "no": "320",
+            "no": 320,
             "cdnCode": "litv-vchannel320",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "發現地中海",
-            "no": "321",
+            "no": 321,
             "cdnCode": "litv-vchannel321",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "12道鋒味",
-            "no": "322",
+            "no": 322,
             "cdnCode": "litv-vchannel322",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "星廚駕到",
-            "no": "323",
+            "no": 323,
             "cdnCode": "litv-vchannel323",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "我們EYE旅行",
-            "no": "324",
+            "no": 324,
             "cdnCode": "litv-vchannel324",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-談話",
+        "title": "整套看頻道-談話",
         "fontColor": "#9052aa",
         "bgColor": "rgba(144, 82, 170, 0.1)",
         "channelList": [
           {
             "title": "2分之一強",
-            "no": "123",
+            "no": 123,
             "cdnCode": "litv-vchannel123",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "WTO姐妹會",
-            "no": "172",
+            "no": 172,
             "cdnCode": "litv-vchannel172",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "小明星大跟班",
-            "no": "181",
+            "no": 181,
             "cdnCode": "litv-vchannel181",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "上班這黨事",
-            "no": "225",
+            "no": 225,
             "cdnCode": "litv-vchannel225",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "女人我最大",
-            "no": "230",
+            "no": 230,
             "cdnCode": "litv-vchannel230",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "康熙來了(精選)",
-            "no": "234",
+            "no": 234,
             "cdnCode": "litv-vchannel234",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "健康NO.1",
-            "no": "255",
+            "no": 255,
             "cdnCode": "litv-vchannel255",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "醫師好辣",
-            "no": "274",
+            "no": 274,
             "cdnCode": "litv-vchannel274",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "幸福來敲門",
-            "no": "310",
+            "no": 310,
             "cdnCode": "litv-vchannel310",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "幸福學堂",
-            "no": "360",
+            "no": 360,
             "cdnCode": "litv-vchannel360",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "玩美的人類",
-            "no": "361",
+            "no": 361,
             "cdnCode": "litv-vchannel361",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看-音樂選秀",
+        "title": "整套看-音樂選秀",
         "fontColor": "#ff9600",
         "bgColor": "rgba(230, 140, 0, 0.1)",
         "channelList": [
           {
             "title": "華視天王豬哥秀",
-            "no": "170",
+            "no": 170,
             "cdnCode": "litv-vchannel170",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "我是歌手4",
-            "no": "187",
+            "no": 187,
             "cdnCode": "litv-vchannel187",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "我是歌手3",
-            "no": "213",
+            "no": 213,
             "cdnCode": "litv-vchannel213",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "明日之星",
-            "no": "250",
+            "no": 250,
             "cdnCode": "litv-vchannel250",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "台灣那麼旺",
-            "no": "260",
+            "no": 260,
             "cdnCode": "litv-vchannel260",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "中國達人秀",
-            "no": "264",
+            "no": 264,
             "cdnCode": "litv-vchannel264",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "誰是大歌神",
-            "no": "278",
+            "no": 278,
             "cdnCode": "litv-vchannel278",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "三星報囍",
-            "no": "285",
+            "no": 285,
             "cdnCode": "litv-vchannel285",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "舞力全開",
-            "no": "306",
+            "no": 306,
             "cdnCode": "litv-vchannel306",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "王牌雙響炮",
-            "no": "340",
+            "no": 340,
             "cdnCode": "litv-vchannel340",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "文茜的音樂故事",
-            "no": "341",
+            "no": 341,
             "cdnCode": "litv-vchannel341",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "心靈不打烊",
-            "no": "342",
+            "no": 342,
             "cdnCode": "litv-vchannel342",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           }
@@ -7024,7 +7024,7 @@
       }
     ],
     "notice": [
-      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »",
+      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »</a>",
       "其他頻道在電腦/手機/平版/智慧電視/機上盒，皆可多螢觀看。",
       "部分頻道因版權規範，播出節目會與有線電視有所不同。",
       "《LiTV線上影視》更多頻道持續增加中，敬請期待！"
@@ -7148,7 +7148,7 @@
       }
     ],
     "notice": [
-      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »",
+      "標記&nbsp;<img src='/resources/image/icon_notice.png' alt='notice'>&nbsp;的頻道未提供在所有載具播放。<a href='/channel/introduction.do'>查詢可授權平台 »</a>",
       "其他頻道在電腦/手機/平版/智慧電視/機上盒，皆可多螢觀看。",
       "部分頻道因版權規範，播出節目會與有線電視有所不同。",
       "《LiTV線上影視》更多頻道持續增加中，敬請期待！"
@@ -8614,525 +8614,525 @@
         "channelList": [
           {
             "title": "皮諾丘",
-            "no": "91",
+            "no": 91,
             "auth": false,
             "cdnCode": "litv-vchannel91",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "浪漫醫生金師傅",
-            "no": "168",
+            "no": 168,
             "auth": false,
             "cdnCode": "litv-vchannel168",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "雲畫的月光",
-            "no": "176",
+            "no": 176,
             "auth": false,
             "cdnCode": "litv-vchannel176",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "W－兩個世界",
-            "no": "180",
+            "no": 180,
             "auth": false,
             "cdnCode": "litv-vchannel180",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "大力女子都奉順",
-            "no": "185",
+            "no": 185,
             "auth": false,
             "cdnCode": "litv-vchannel185",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "奇皇后",
-            "no": "190",
+            "no": 190,
             "auth": false,
             "cdnCode": "litv-vchannel190",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "我女婿的女人",
-            "no": "194",
+            "no": 194,
             "auth": false,
             "cdnCode": "litv-vchannel194",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "Oh&nbsp;My&nbsp;Venus",
-            "no": "198",
+            "no": 198,
             "auth": false,
             "cdnCode": "litv-vchannel198",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "吹吧微風(國語配音)",
-            "no": "200",
+            "no": 200,
             "auth": false,
             "cdnCode": "litv-vchannel200",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "五個孩子(國語配音)",
-            "no": "201",
+            "no": 201,
             "auth": false,
             "cdnCode": "litv-vchannel201",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "我女婿的女人(國語配音)",
-            "no": "202",
+            "no": 202,
             "auth": false,
             "cdnCode": "litv-vchannel202",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "只想為你(國語配音)",
-            "no": "203",
+            "no": 203,
             "auth": false,
             "cdnCode": "litv-vchannel203",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "(國)看見味道的少女",
-            "no": "204",
+            "no": 204,
             "auth": false,
             "cdnCode": "litv-vchannel204",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "善良醫生",
-            "no": "208",
+            "no": 208,
             "auth": false,
             "cdnCode": "litv-vchannel208",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "治癒者",
-            "no": "212",
+            "no": 212,
             "auth": false,
             "cdnCode": "litv-vchannel212",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "吹吧微風",
-            "no": "217",
+            "no": 217,
             "auth": false,
             "cdnCode": "litv-vchannel217",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "夜行書生",
-            "no": "224",
+            "no": 224,
             "auth": false,
             "cdnCode": "litv-vchannel224",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "製作人的那些事",
-            "no": "228",
+            "no": 228,
             "auth": false,
             "cdnCode": "litv-vchannel228",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "五個孩子",
-            "no": "233",
+            "no": 233,
             "auth": false,
             "cdnCode": "litv-vchannel233",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "母親",
-            "no": "237",
+            "no": 237,
             "auth": false,
             "cdnCode": "litv-vchannel237",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "偉大的糟糠之妻",
-            "no": "241",
+            "no": 241,
             "auth": false,
             "cdnCode": "litv-vchannel241",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "為愛美麗",
-            "no": "245",
+            "no": 245,
             "auth": false,
             "cdnCode": "litv-vchannel245",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "好好養大的女兒",
-            "no": "249",
+            "no": 249,
             "auth": false,
             "cdnCode": "litv-vchannel249",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "上流緋聞",
-            "no": "253",
+            "no": 253,
             "auth": false,
             "cdnCode": "litv-vchannel253",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "來自星星的你",
-            "no": "263",
+            "no": 263,
             "auth": false,
             "cdnCode": "litv-vchannel263",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "咖啡王子1號店",
-            "no": "268",
+            "no": 268,
             "auth": false,
             "cdnCode": "litv-vchannel268",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "主君密碼",
-            "no": "272",
+            "no": 272,
             "auth": false,
             "cdnCode": "litv-vchannel272",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "愛你的時間",
-            "no": "277",
+            "no": 277,
             "auth": false,
             "cdnCode": "litv-vchannel277",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "好運羅曼史",
-            "no": "281",
+            "no": 281,
             "auth": false,
             "cdnCode": "litv-vchannel281",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "家人之間",
-            "no": "288",
+            "no": 288,
             "auth": false,
             "cdnCode": "litv-vchannel288",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "只想為你",
-            "no": "292",
+            "no": 292,
             "auth": false,
             "cdnCode": "litv-vchannel292",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "她很漂亮",
-            "no": "297",
+            "no": 297,
             "auth": false,
             "cdnCode": "litv-vchannel297",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "龍八夷",
-            "no": "301",
+            "no": 301,
             "auth": false,
             "cdnCode": "litv-vchannel301",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "看見味道的少女",
-            "no": "305",
+            "no": 305,
             "auth": false,
             "cdnCode": "litv-vchannel305",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "秘密",
-            "no": "309",
+            "no": 309,
             "auth": false,
             "cdnCode": "litv-vchannel309",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "預約愛情",
-            "no": "313",
+            "no": 313,
             "auth": false,
             "cdnCode": "litv-vchannel313",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "青鳥之家",
-            "no": "317",
+            "no": 317,
             "auth": false,
             "cdnCode": "litv-vchannel317",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "布穀鳥之巢",
-            "no": "334",
+            "no": 334,
             "auth": false,
             "cdnCode": "litv-vchannel334",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "全部我的愛",
-            "no": "335",
+            "no": 335,
             "auth": false,
             "cdnCode": "litv-vchannel335",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "華麗的對決",
-            "no": "336",
+            "no": 336,
             "auth": false,
             "cdnCode": "litv-vchannel336",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "紅寶石戒指",
-            "no": "337",
+            "no": 337,
             "auth": false,
             "cdnCode": "litv-vchannel337",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "廣告天才李太白",
-            "no": "352",
+            "no": 352,
             "auth": false,
             "cdnCode": "litv-vchannel352",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "12年後的重逢",
-            "no": "353",
+            "no": 353,
             "auth": false,
             "cdnCode": "litv-vchannel353",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "奇妙一家人",
-            "no": "354",
+            "no": 354,
             "auth": false,
             "cdnCode": "litv-vchannel354",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "發酵家族",
-            "no": "355",
+            "no": 355,
             "auth": false,
             "cdnCode": "litv-vchannel355",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "最佳李純信",
-            "no": "356",
+            "no": 356,
             "auth": false,
             "cdnCode": "litv-vchannel356",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "命中注定我愛你",
-            "no": "367",
+            "no": 367,
             "auth": false,
             "cdnCode": "litv-vchannel367",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "愛上恢單女",
-            "no": "368",
+            "no": 368,
             "auth": false,
             "cdnCode": "litv-vchannel368",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "逆轉人生",
-            "no": "369",
+            "no": 369,
             "auth": false,
             "cdnCode": "litv-vchannel369",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "心情好又暖",
-            "no": "370",
+            "no": 370,
             "auth": false,
             "cdnCode": "litv-vchannel370",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "我人生的春天",
-            "no": "371",
+            "no": 371,
             "auth": false,
             "cdnCode": "litv-vchannel371",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "薔花與紅蓮",
-            "no": "377",
+            "no": 377,
             "auth": false,
             "cdnCode": "litv-vchannel377",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "安托萬夫人",
-            "no": "378",
+            "no": 378,
             "auth": false,
             "cdnCode": "litv-vchannel378",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "天使之眼",
-            "no": "379",
+            "no": 379,
             "auth": false,
             "cdnCode": "litv-vchannel379",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "美女孔心",
-            "no": "380",
+            "no": 380,
             "auth": false,
             "cdnCode": "litv-vchannel380",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "黃真伊",
-            "no": "381",
+            "no": 381,
             "auth": false,
             "cdnCode": "litv-vchannel381",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "酒店之王",
-            "no": "405",
+            "no": 405,
             "auth": false,
             "cdnCode": "litv-vchannel405",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "麵包王金卓求",
-            "no": "406",
+            "no": 406,
             "auth": false,
             "cdnCode": "litv-vchannel406",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "你們被包圍了",
-            "no": "407",
+            "no": 407,
             "auth": false,
             "cdnCode": "litv-vchannel407",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "張玉貞，為愛而生",
-            "no": "408",
+            "no": 408,
             "auth": false,
             "cdnCode": "litv-vchannel408",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "成均館緋聞",
-            "no": "409",
+            "no": 409,
             "auth": false,
             "cdnCode": "litv-vchannel409",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "魔法麵包店",
-            "no": "415",
+            "no": 415,
             "auth": false,
             "cdnCode": "litv-vchannel415",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "甜蜜的秘密",
-            "no": "416",
+            "no": 416,
             "auth": false,
             "cdnCode": "litv-vchannel416",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "職場女神",
-            "no": "417",
+            "no": 417,
             "auth": false,
             "cdnCode": "litv-vchannel417",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "千日的約定",
-            "no": "418",
+            "no": 418,
             "auth": false,
             "cdnCode": "litv-vchannel418",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "灰姑娘的姐姐",
-            "no": "419",
+            "no": 419,
             "auth": false,
             "cdnCode": "litv-vchannel419",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "仁粹大妃",
-            "no": "425",
+            "no": 425,
             "auth": false,
             "cdnCode": "litv-vchannel425",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "富翁的誕生",
-            "no": "426",
+            "no": 426,
             "auth": false,
             "cdnCode": "litv-vchannel426",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "花的戰爭",
-            "no": "427",
+            "no": 427,
             "auth": false,
             "cdnCode": "litv-vchannel427",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "Dream&nbsp;High2&nbsp;夢想高飛2",
-            "no": "428",
+            "no": 428,
             "auth": false,
             "cdnCode": "litv-vchannel428",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "MONSTAR",
-            "no": "429",
+            "no": 429,
             "auth": false,
             "cdnCode": "litv-vchannel429",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "住在清潭洞",
-            "no": "430",
+            "no": 430,
             "auth": false,
             "cdnCode": "litv-vchannel430",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "不善良的女人們",
-            "no": "431",
+            "no": 431,
             "auth": false,
             "cdnCode": "litv-vchannel431",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "不朽的韓食(國)",
-            "no": "432",
+            "no": 432,
             "auth": false,
             "cdnCode": "litv-vchannel432",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
           },
           {
             "title": "憤怒的媽媽",
-            "no": "433",
+            "no": 433,
             "auth": false,
             "cdnCode": "litv-vchannel433",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel91_pc_20170619.png"
@@ -9140,456 +9140,456 @@
         ]
       },
       {
-        "name": "整套看頻道-港劇",
+        "title": "整套看頻道-港劇",
         "fontColor": "#8eae41",
         "bgColor": "rgba(142, 174, 65, 0.1)",
         "channelList": [
           {
             "title": "On&nbsp;Call&nbsp;36小時(粵語版)",
-            "no": "500",
+            "no": 500,
             "cdnCode": "litv-vchannel500",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "On&nbsp;Call&nbsp;36小時(國語配音)",
-            "no": "501",
+            "no": 501,
             "cdnCode": "litv-vchannel501",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "富貴門(粵語版)",
-            "no": "502",
+            "no": 502,
             "cdnCode": "litv-vchannel502",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "富貴門(國語配音)",
-            "no": "503",
+            "no": 503,
             "cdnCode": "litv-vchannel503",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "風雲天地(粵語版)",
-            "no": "504",
+            "no": 504,
             "cdnCode": "litv-vchannel504",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "風雲天地(國語配音)",
-            "no": "505",
+            "no": 505,
             "cdnCode": "litv-vchannel505",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "仁心解碼(粵語版)",
-            "no": "506",
+            "no": 506,
             "cdnCode": "litv-vchannel506",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "仁心解碼(國語配音)",
-            "no": "507",
+            "no": 507,
             "cdnCode": "litv-vchannel507",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "珠光寶氣(粵語版)",
-            "no": "508",
+            "no": 508,
             "cdnCode": "litv-vchannel508",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           },
           {
             "title": "珠光寶氣(國語配音)",
-            "no": "509",
+            "no": 509,
             "cdnCode": "litv-vchannel509",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel500_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-經典",
+        "title": "整套看頻道-經典",
         "fontColor": "#04aba9",
         "bgColor": "rgba(4, 171, 169, 0.1)",
         "channelList": [
           {
             "title": "京城四少",
-            "no": "550",
+            "no": 550,
             "cdnCode": "litv-vchannel550",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "京華煙雲(1988年版)",
-            "no": "551",
+            "no": 551,
             "cdnCode": "litv-vchannel551",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "藍與黑",
-            "no": "552",
+            "no": 552,
             "cdnCode": "litv-vchannel552",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "冰點",
-            "no": "553",
+            "no": 553,
             "cdnCode": "litv-vchannel553",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "大兵日記",
-            "no": "554",
+            "no": 554,
             "cdnCode": "litv-vchannel554",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "飛龍在天",
-            "no": "555",
+            "no": 555,
             "cdnCode": "litv-vchannel555",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "七俠五義",
-            "no": "556",
+            "no": 556,
             "cdnCode": "litv-vchannel556",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "包青天&nbsp;1993版",
-            "no": "557",
+            "no": 557,
             "cdnCode": "litv-vchannel557",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "庭院深深",
-            "no": "558",
+            "no": 558,
             "cdnCode": "litv-vchannel558",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "驚世媳婦&nbsp;&nbsp;",
-            "no": "559",
+            "no": 559,
             "cdnCode": "litv-vchannel559",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "勸世媳婦",
-            "no": "560",
+            "no": 560,
             "cdnCode": "litv-vchannel560",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "醒世媳婦",
-            "no": "561",
+            "no": 561,
             "cdnCode": "litv-vchannel561",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "菅芒花的春天",
-            "no": "562",
+            "no": 562,
             "cdnCode": "litv-vchannel562",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "春天後母心",
-            "no": "563",
+            "no": 563,
             "cdnCode": "litv-vchannel563",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           },
           {
             "title": "春天父母心",
-            "no": "564",
+            "no": 564,
             "cdnCode": "litv-vchannel564",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel550_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-遊戲挑戰",
+        "title": "整套看頻道-遊戲挑戰",
         "fontColor": "#4575d1",
         "bgColor": "rgba(69, 117, 209, 0.1)",
         "channelList": [
           {
             "title": "天才衝衝衝",
-            "no": "121",
+            "no": 121,
             "cdnCode": "litv-vchannel121",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "極限挑戰2",
-            "no": "177",
+            "no": 177,
             "cdnCode": "litv-vchannel177",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "名模出任務",
-            "no": "195",
+            "no": 195,
             "cdnCode": "litv-vchannel195",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "極限挑戰1",
-            "no": "238",
+            "no": 238,
             "cdnCode": "litv-vchannel238",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           },
           {
             "title": "財神向錢衝",
-            "no": "269",
+            "no": 269,
             "cdnCode": "litv-vchannel269",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel121_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-旅遊美食",
+        "title": "整套看頻道-旅遊美食",
         "fontColor": "#ea1373",
         "bgColor": "rgba(234, 19, 115, 0.1)",
         "channelList": [
           {
             "title": "世界第一等",
-            "no": "122",
+            "no": 122,
             "cdnCode": "litv-vchannel122",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "食尚玩家",
-            "no": "169",
+            "no": 169,
             "cdnCode": "litv-vchannel169",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "故鄉好滋味",
-            "no": "191",
+            "no": 191,
             "cdnCode": "litv-vchannel191",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "美食第一等",
-            "no": "209",
+            "no": 209,
             "cdnCode": "litv-vchannel209",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "台灣1001個故事",
-            "no": "220",
+            "no": 220,
             "cdnCode": "litv-vchannel220",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "非凡大探索",
-            "no": "242",
+            "no": 242,
             "cdnCode": "litv-vchannel242",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "台灣真善美",
-            "no": "246",
+            "no": 246,
             "cdnCode": "litv-vchannel246",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "型男闖世界",
-            "no": "289",
+            "no": 289,
             "cdnCode": "litv-vchannel289",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "360行向前衝",
-            "no": "294",
+            "no": 294,
             "cdnCode": "litv-vchannel294",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "小資FUN輕鬆",
-            "no": "302",
+            "no": 302,
             "cdnCode": "litv-vchannel302",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "美鳳有約",
-            "no": "314",
+            "no": 314,
             "cdnCode": "litv-vchannel314",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "閱讀青旅行",
-            "no": "320",
+            "no": 320,
             "cdnCode": "litv-vchannel320",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "發現地中海",
-            "no": "321",
+            "no": 321,
             "cdnCode": "litv-vchannel321",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "12道鋒味",
-            "no": "322",
+            "no": 322,
             "cdnCode": "litv-vchannel322",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "星廚駕到",
-            "no": "323",
+            "no": 323,
             "cdnCode": "litv-vchannel323",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           },
           {
             "title": "我們EYE旅行",
-            "no": "324",
+            "no": 324,
             "cdnCode": "litv-vchannel324",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel122_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看頻道-談話",
+        "title": "整套看頻道-談話",
         "fontColor": "#9052aa",
         "bgColor": "rgba(144, 82, 170, 0.1)",
         "channelList": [
           {
             "title": "2分之一強",
-            "no": "123",
+            "no": 123,
             "cdnCode": "litv-vchannel123",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "WTO姐妹會",
-            "no": "172",
+            "no": 172,
             "cdnCode": "litv-vchannel172",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "小明星大跟班",
-            "no": "181",
+            "no": 181,
             "cdnCode": "litv-vchannel181",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "上班這黨事",
-            "no": "225",
+            "no": 225,
             "cdnCode": "litv-vchannel225",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "女人我最大",
-            "no": "230",
+            "no": 230,
             "cdnCode": "litv-vchannel230",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "康熙來了(精選)",
-            "no": "234",
+            "no": 234,
             "cdnCode": "litv-vchannel234",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "健康NO.1",
-            "no": "255",
+            "no": 255,
             "cdnCode": "litv-vchannel255",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "醫師好辣",
-            "no": "274",
+            "no": 274,
             "cdnCode": "litv-vchannel274",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "幸福來敲門",
-            "no": "310",
+            "no": 310,
             "cdnCode": "litv-vchannel310",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "幸福學堂",
-            "no": "360",
+            "no": 360,
             "cdnCode": "litv-vchannel360",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           },
           {
             "title": "玩美的人類",
-            "no": "361",
+            "no": 361,
             "cdnCode": "litv-vchannel361",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel123_pc_20170619.png"
           }
         ]
       },
       {
-        "name": "整套看-音樂選秀",
+        "title": "整套看-音樂選秀",
         "fontColor": "#ff9600",
         "bgColor": "rgba(230, 140, 0, 0.1)",
         "channelList": [
           {
             "title": "華視天王豬哥秀",
-            "no": "170",
+            "no": 170,
             "cdnCode": "litv-vchannel170",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "我是歌手4",
-            "no": "187",
+            "no": 187,
             "cdnCode": "litv-vchannel187",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "我是歌手3",
-            "no": "213",
+            "no": 213,
             "cdnCode": "litv-vchannel213",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "明日之星",
-            "no": "250",
+            "no": 250,
             "cdnCode": "litv-vchannel250",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "台灣那麼旺",
-            "no": "260",
+            "no": 260,
             "cdnCode": "litv-vchannel260",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "中國達人秀",
-            "no": "264",
+            "no": 264,
             "cdnCode": "litv-vchannel264",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "誰是大歌神",
-            "no": "278",
+            "no": 278,
             "cdnCode": "litv-vchannel278",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "三星報囍",
-            "no": "285",
+            "no": 285,
             "cdnCode": "litv-vchannel285",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "舞力全開",
-            "no": "306",
+            "no": 306,
             "cdnCode": "litv-vchannel306",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "王牌雙響炮",
-            "no": "340",
+            "no": 340,
             "cdnCode": "litv-vchannel340",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "文茜的音樂故事",
-            "no": "341",
+            "no": 341,
             "cdnCode": "litv-vchannel341",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           },
           {
             "title": "心靈不打烊",
-            "no": "342",
+            "no": 342,
             "cdnCode": "litv-vchannel342",
             "picture": "https://cdnstatic-staging.svc.litv.tv/pics/vod_channel/logo_litv-vchannel170_pc_20170619.png"
           }
