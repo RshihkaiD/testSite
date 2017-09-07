@@ -1,0 +1,193 @@
+{
+  "row": [
+    {
+      "key": "all",
+      "name": "隨選影片餐",
+      "price": "<small>$</small>99",
+      "color": "orange",
+      "action": "others",
+      "link": "/purchase/subscribePackage.do?id=ALL&to=purchaseInfo",
+      "gg":123
+    },
+    {
+      "key": "vod_channel_value",
+      "name": "超值組合餐",
+      "price": "<small>$</small>199<small>起</small>",
+      "color": "orange",
+      "action": "others",
+      "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_VALUE&to=purchaseInfo"
+    },
+    {
+      "key": "vod_channel_delux",
+      "name": "豪華組合餐",
+      "price": "<small>$</small>199<small>起</small>",
+      "color": "orange",
+      "action": "others",
+      "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_DELUX&to=purchaseInfo"
+    },
+    {
+      "key": "vchannel",
+      "name": "整套看頻道餐",
+      "price": "<small>$</small>188<small>起</small>",
+      "color": "orange",
+      "action": "others",
+      "link": "/purchase/subscribePackage.do?id=VCHANNEL&to=purchaseInfo"
+    },
+    {
+      "key": "channel_elta",
+      "name": "愛爾答歡樂餐",
+      "price": "<small>$</small>99",
+      "color": "orange",
+      "action": "others",
+      "link": "/purchase/subscribePackage.do?id=CHANNEL_ELTA&to=purchaseInfo"
+    },
+    {
+      "key": "free",
+      "name": "免費會員",
+      "price": null,
+      "color": "green",
+      "action": "register",
+      "link": ""
+    }
+  ],
+  "column": [
+    {
+      "key": "channel",
+      "name": "頻道",
+      "item": [
+        "100台精選電視直播頻道",
+        "300台\"熱播\"整套看頻道",
+        "愛爾答體育賽事精選"
+      ]
+    },
+    {
+      "key": "vod",
+      "name": "隨選影片",
+      "item": [
+        "上萬部隨選片庫",
+        "隨選影片免看影音廣告"
+      ]
+    },
+    {
+      "key": "function",
+      "name": "裝置與功能",
+      "item": [
+        "觀看紀錄",
+        "無時間限制的觀看影音內容",
+        "電腦、手機、平板自由觀看",
+        "可在電腦觀看",
+        "1080p高畫質"
+      ]
+    }
+  ],
+  "value": {
+    "all": {
+      "channel": [
+        false,
+        false,
+        false
+      ],
+      "vod": [
+        true,
+        true
+      ],
+      "function": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "vod_channel_value": {
+      "channel": [
+        true,
+        false,
+        false
+      ],
+      "vod": [
+        true,
+        true
+      ],
+      "function": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "vod_channel_delux": {
+      "channel": [
+        true,
+        true,
+        false
+      ],
+      "vod": [
+        true,
+        true
+      ],
+      "function": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "vchannel": {
+      "channel": [
+        false,
+        true,
+        false
+      ],
+      "vod": [
+        false,
+        false
+      ],
+      "function": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "channel_elta": {
+      "channel": [
+        false,
+        false,
+        true
+      ],
+      "vod": [
+        false,
+        false
+      ],
+      "function": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "free": {
+      "channel": [
+        false,
+        false,
+        false
+      ],
+      "vod": [
+        false,
+        false
+      ],
+      "function": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    }
+  }
+}
