@@ -6,8 +6,7 @@
       "price": "<small>$</small>99",
       "color": "orange",
       "action": "others",
-      "link": "/purchase/subscribePackage.do?id=ALL&to=purchaseInfo",
-      "gg":123
+      "link": "/purchase/subscribePackage.do?id=ALL&to=purchaseInfo"
     },
     {
       "key": "vod_channel_value",
