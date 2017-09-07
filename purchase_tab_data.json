@@ -5,7 +5,7 @@
       "name": "隨選影片餐",
       "price": "<small>$</small>99",
       "color": "orange",
-      "action": "others",
+      "action": "purchase",
       "link": "/purchase/subscribePackage.do?id=ALL&to=purchaseInfo"
     },
     {
@@ -13,7 +13,7 @@
       "name": "超值組合餐",
       "price": "<small>$</small>199<small>起</small>",
       "color": "orange",
-      "action": "others",
+      "action": "purchase",
       "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_VALUE&to=purchaseInfo"
     },
     {
@@ -21,15 +21,15 @@
       "name": "豪華組合餐",
       "price": "<small>$</small>199<small>起</small>",
       "color": "orange",
-      "action": "others",
+      "action": "purchase",
       "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_DELUX&to=purchaseInfo"
     },
     {
       "key": "vchannel",
       "name": "整套看頻道餐",
-      "price": "<small>$</small>188<small>起</small>",
+      "price": "<small>$</small>99",
       "color": "orange",
-      "action": "others",
+      "action": "purchase",
       "link": "/purchase/subscribePackage.do?id=VCHANNEL&to=purchaseInfo"
     },
     {
@@ -37,7 +37,7 @@
       "name": "愛爾答歡樂餐",
       "price": "<small>$</small>99",
       "color": "orange",
-      "action": "others",
+      "action": "purchase",
       "link": "/purchase/subscribePackage.do?id=CHANNEL_ELTA&to=purchaseInfo"
     },
     {
@@ -79,9 +79,8 @@
       ]
     }
   ],
-  "value": [
-    {
-      "key": "all",
+  "value": {
+    "all": {
       "channel": [
         false,
         false,
@@ -99,8 +98,7 @@
         true
       ]
     },
-    {
-      "key": "vod_channel_value",
+    "vod_channel_value": {
       "channel": [
         true,
         false,
@@ -118,8 +116,7 @@
         true
       ]
     },
-    {
-      "key": "vod_channel_delux",
+    "vod_channel_delux": {
       "channel": [
         true,
         true,
@@ -137,27 +134,7 @@
         true
       ]
     },
-    {
-      "key": "vchannel",
-      "channel": [
-        false,
-        true,
-        false
-      ],
-      "vod": [
-        false,
-        false
-      ],
-      "function": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    {
-      "key": "channel_elta",
+    "vchannel": {
       "channel": [
         false,
         false,
@@ -175,8 +152,25 @@
         true
       ]
     },
-    {
-      "key": "free",
+    "channel_elta": {
+      "channel": [
+        false,
+        false,
+        true
+      ],
+      "vod": [
+        false,
+        false
+      ],
+      "function": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "free": {
       "channel": [
         false,
         false,
@@ -194,5 +188,5 @@
         false
       ]
     }
-  ]
+  }
 }
