@@ -79,8 +79,9 @@
       ]
     }
   ],
-  "value": {
-    "all": {
+  "value": [
+    {
+      "key": "all",
       "channel": [
         false,
         false,
@@ -98,7 +99,8 @@
         true
       ]
     },
-    "vod_channel_value": {
+    {
+      "key": "vod_channel_value",
       "channel": [
         true,
         false,
@@ -116,7 +118,8 @@
         true
       ]
     },
-    "vod_channel_delux": {
+    {
+      "key": "vod_channel_delux",
       "channel": [
         true,
         true,
@@ -134,7 +137,8 @@
         true
       ]
     },
-    "vchannel": {
+    {
+      "key": "vchannel",
       "channel": [
         false,
         true,
@@ -152,7 +156,8 @@
         true
       ]
     },
-    "channel_elta": {
+    {
+      "key": "channel_elta",
       "channel": [
         false,
         false,
@@ -170,7 +175,8 @@
         true
       ]
     },
-    "free": {
+    {
+      "key": "free",
       "channel": [
         false,
         false,
@@ -188,5 +194,5 @@
         false
       ]
     }
-  }
+  ]
 }
