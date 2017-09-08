@@ -172,7 +172,7 @@
     },
     {
       "name": "免費會員",
-      "price": null,
+      "price": "",
       "color": "green",
       "action": "register",
       "link": "",
