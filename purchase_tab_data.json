@@ -1,52 +1,208 @@
 {
   "row": [
     {
-      "key": "all",
       "name": "隨選影片餐",
       "price": "<small>$</small>99",
       "color": "orange",
       "action": "purchase",
-      "link": "/purchase/subscribePackage.do?id=ALL&to=purchaseInfo"
+      "link": "/purchase/subscribePackage.do?id=ALL&to=purchaseInfo",
+      "value": [
+        {
+          "type": "channel",
+          "info": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "vod",
+          "info": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "function",
+          "info": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     },
     {
-      "key": "vod_channel_value",
       "name": "超值組合餐",
       "price": "<small>$</small>199<small>起</small>",
       "color": "orange",
       "action": "purchase",
-      "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_VALUE&to=purchaseInfo"
+      "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_VALUE&to=purchaseInfo",
+      "value": [
+        {
+          "type": "channel",
+          "info": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "vod",
+          "info": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "function",
+          "info": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     },
     {
-      "key": "vod_channel_delux",
       "name": "豪華組合餐",
       "price": "<small>$</small>199<small>起</small>",
       "color": "orange",
       "action": "purchase",
-      "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_DELUX&to=purchaseInfo"
+      "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_DELUX&to=purchaseInfo",
+      "value": [
+        {
+          "type": "channel",
+          "info": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "vod",
+          "info": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "function",
+          "info": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     },
     {
-      "key": "vchannel",
       "name": "整套看頻道餐",
       "price": "<small>$</small>99",
       "color": "orange",
       "action": "purchase",
-      "link": "/purchase/subscribePackage.do?id=VCHANNEL&to=purchaseInfo"
+      "link": "/purchase/subscribePackage.do?id=VCHANNEL&to=purchaseInfo",
+      "value": [
+        {
+          "type": "channel",
+          "info": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "vod",
+          "info": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "function",
+          "info": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     },
     {
-      "key": "channel_elta",
       "name": "愛爾答歡樂餐",
       "price": "<small>$</small>99",
       "color": "orange",
       "action": "purchase",
-      "link": "/purchase/subscribePackage.do?id=CHANNEL_ELTA&to=purchaseInfo"
+      "link": "/purchase/subscribePackage.do?id=CHANNEL_ELTA&to=purchaseInfo",
+      "value": [
+        {
+          "type": "channel",
+          "info": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "vod",
+          "info": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "function",
+          "info": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     },
     {
-      "key": "free",
       "name": "免費會員",
       "price": null,
       "color": "green",
       "action": "register",
-      "link": ""
+      "link": "",
+      "value": [
+        {
+          "type": "channel",
+          "info": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "vod",
+          "info": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": "function",
+          "info": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "column": [
@@ -78,115 +234,5 @@
         "1080p高畫質"
       ]
     }
-  ],
-  "value": {
-    "all": {
-      "channel": [
-        false,
-        false,
-        false
-      ],
-      "vod": [
-        true,
-        true
-      ],
-      "function": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    "vod_channel_value": {
-      "channel": [
-        true,
-        false,
-        false
-      ],
-      "vod": [
-        true,
-        true
-      ],
-      "function": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    "vod_channel_delux": {
-      "channel": [
-        true,
-        true,
-        false
-      ],
-      "vod": [
-        true,
-        true
-      ],
-      "function": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    "vchannel": {
-      "channel": [
-        false,
-        false,
-        true
-      ],
-      "vod": [
-        false,
-        false
-      ],
-      "function": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    "channel_elta": {
-      "channel": [
-        false,
-        false,
-        true
-      ],
-      "vod": [
-        false,
-        false
-      ],
-      "function": [
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    "free": {
-      "channel": [
-        false,
-        false,
-        false
-      ],
-      "vod": [
-        false,
-        false
-      ],
-      "function": [
-        true,
-        true,
-        true,
-        false,
-        false
-      ]
-    }
-  }
+  ]
 }
