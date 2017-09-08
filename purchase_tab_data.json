@@ -103,40 +103,6 @@
       ]
     },
     {
-      "name": "整套看頻道餐",
-      "price": "<small>$</small>99",
-      "color": "orange",
-      "action": "purchase",
-      "link": "/purchase/subscribePackage.do?id=VCHANNEL&to=purchaseInfo",
-      "value": [
-        {
-          "type": "channel",
-          "info": [
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": "vod",
-          "info": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": "function",
-          "info": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
       "name": "愛爾答歡樂餐",
       "price": "<small>$</small>99",
       "color": "orange",
