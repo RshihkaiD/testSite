@@ -4,7 +4,7 @@
       "name": "隨選影片餐",
       "price": "<small>$</small>99",
       "color": "orange",
-      "action": "purchase",
+      "action": "others",
       "link": "/purchase/subscribePackage.do?id=ALL&to=purchaseInfo",
       "value": [
         {
@@ -38,7 +38,7 @@
       "name": "超值組合餐",
       "price": "<small>$</small>199<small>起</small>",
       "color": "orange",
-      "action": "purchase",
+      "action": "others",
       "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_VALUE&to=purchaseInfo",
       "value": [
         {
@@ -72,7 +72,7 @@
       "name": "豪華組合餐",
       "price": "<small>$</small>199<small>起</small>",
       "color": "orange",
-      "action": "purchase",
+      "action": "others",
       "link": "/purchase/subscribePackage.do?id=VOD_CHANNEL_DELUX&to=purchaseInfo",
       "value": [
         {
@@ -106,7 +106,7 @@
       "name": "愛爾答歡樂餐",
       "price": "<small>$</small>99",
       "color": "orange",
-      "action": "purchase",
+      "action": "others",
       "link": "/purchase/subscribePackage.do?id=CHANNEL_ELTA&to=purchaseInfo",
       "value": [
         {
