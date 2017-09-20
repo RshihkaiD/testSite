@@ -1,7 +1,7 @@
 {
   "row": [
     {
-      "name": "豪華組合餐",
+      "name": "豪華組合餐 ",
       "price": "<small>$</small>199<small>起</small>",
       "color": "orange",
       "action": "others",
