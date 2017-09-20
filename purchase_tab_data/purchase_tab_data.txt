@@ -1,47 +1,6 @@
 {
   "row": [
     {
-      "name": "隨選影片餐",
-      "price": "<small>$</small>99",
-      "color": "orange",
-      "action": "others",
-      "link": "/purchase/subscribePackage.do?id=ALL&to=purchaseInfo",
-      "value": [
-        {
-          "type": "basic",
-          "info": [
-            "",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/promo_info_2x.png"
-          ]
-        },
-        {
-          "type": "channel",
-          "info": [
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": "vod",
-          "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
-          ]
-        },
-        {
-          "type": "function",
-          "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
-          ]
-        }
-      ]
-    },
-    {
       "name": "豪華組合餐",
       "price": "<small>$</small>199<small>起</small>",
       "color": "orange",
