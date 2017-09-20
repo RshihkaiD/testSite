@@ -11,7 +11,7 @@
           "type": "basic",
           "info": [
             "",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/promo_info_2x.png"
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/promo_info_2x.png"
           ]
         },
         {
@@ -25,18 +25,18 @@
         {
           "type": "vod",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png"
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
           ]
         },
         {
           "type": "function",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png"
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
           ]
         }
       ]
@@ -58,26 +58,26 @@
         {
           "type": "channel",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
             ""
           ]
         },
         {
           "type": "vod",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png"
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
           ]
         },
         {
           "type": "function",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png"
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
           ]
         }
       ]
@@ -99,7 +99,7 @@
         {
           "type": "channel",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
             "",
             ""
           ]
@@ -107,18 +107,18 @@
         {
           "type": "vod",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png"
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
           ]
         },
         {
           "type": "function",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png"
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
           ]
         }
       ]
@@ -142,7 +142,7 @@
           "info": [
             "",
             "",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png"
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
           ]
         },
         {
@@ -155,11 +155,11 @@
         {
           "type": "function",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_2x.png"
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_2x.png"
           ]
         }
       ]
@@ -196,9 +196,9 @@
         {
           "type": "function",
           "info": [
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_free_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_free_2x.png",
-            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/icon_tick_free_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_free_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_free_2x.png",
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/image/icon_tick_free_2x.png",
             "",
             ""
           ]
