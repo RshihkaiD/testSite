@@ -11,7 +11,7 @@
           "type": "basic",
           "info": [
             "",
-            ""
+            "https://rshihkaid.github.io/testSite/purchase_tab_data/images/promo_info_2x.png"
           ]
         },
         {
